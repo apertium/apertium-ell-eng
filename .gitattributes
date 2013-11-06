@@ -1,4 +1,4 @@
 * text=auto !eol
-/apertium-el-en.el-en.dix -text
-/apertium-el-en.el-en.lrx -text
-/apertium-el-en.el.dix -text
+/apertium-ell-eng.el.dix -text
+/apertium-ell-eng.ell-eng.dix -text
+/apertium-ell-eng.ell-eng.lrx -text
