@@ -607,12 +607,12 @@
     <e><p><l>γυναίκα<s n="n"/><s n="f"/></l><r>female<s n="n"/></r></p></e>
 
     <!-- SECTION: Verbs -->
-    <e><p><l>γυρίζω<s n="v"/></l><r>turn<s n="v"/></r></p></e>
-    <e><p><l>στρίβω<s n="v"/></l><r>turn<s n="v"/></r></p></e>
-    <e><p><l>αγγίζω<s n="v"/></l><r>touch<s n="v"/></r></p></e>
-    <e><p><l>ακουμπώ<s n="v"/></l><r>touch<s n="v"/></r></p></e>
-    <e><p><l>προστατεύω<s n="v"/></l><r>protect<s n="v"/></r></p></e>
-    <e><p><l>παρέχω<s n="v"/></l><r>provide<s n="v"/></r></p></e>
+    <e><p><l>γυρίζω<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e>
+    <e><p><l>στρίβω<s n="vblex"/></l><r>turn<s n="vblex"/></r></p></e>
+    <e><p><l>αγγίζω<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>ακουμπώ<s n="vblex"/></l><r>touch<s n="vblex"/></r></p></e>
+    <e><p><l>προστατεύω<s n="vblex"/></l><r>protect<s n="vblex"/></r></p></e>
+    <e><p><l>παρέχω<s n="vblex"/></l><r>provide<s n="vblex"/></r></p></e>
 
     <e><p><l>απαντώ<s n="vblex"/></l><r>answer<s n="vblex"/></r></p></e>
     <e><p><l>ζητώ<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
@@ -776,62 +776,62 @@
     <e><p><l>τρισεκατομμύριο<s n="num"/><s n="sp"/></l><r>trillion<s n="num"/><s n="sp"/></r></p></e>
 
     <!-- SECTION: Countries -->
-       <e><p><l>Αυστραλία<s n="np"/><s n="top"/><s n="GD"/></l><r>Australia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Αυστρία<s n="np"/><s n="top"/><s n="F"/></l><r>Austria<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Βέλγιο<s n="np"/><s n="top"/><s n="N"/></l><r>Belgium<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Βραζιλία<s n="np"/><s n="top"/><s n="F"/></l><r>Brazil<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Βουλγαρία<s n="np"/><s n="top"/><s n="F"/></l><r>Bulgaria<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Καναδάς<s n="np"/><s n="top"/><s n="M"/></l><r>Canada<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Κίνα<s n="np"/><s n="top"/><s n="F"/></l><r>China<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Κολομβία<s n="np"/><s n="top"/><s n="F"/></l><r>Columbia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Κροατία<s n="np"/><s n="top"/><s n="F"/></l><r>Croatia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Κύπρος<s n="np"/><s n="top"/><s n="F"/></l><r>Cyprus<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Δανία<s n="np"/><s n="top"/><s n="F"/></l><r>Denmark<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Γερμανία<s n="np"/><s n="top"/><s n="F"/></l><r>Germany<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Αγγλία<s n="np"/><s n="top"/><s n="F"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Εστονία<s n="np"/><s n="top"/><s n="F"/></l><r>Estonia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Φινλανδία<s n="np"/><s n="top"/><s n="F"/></l><r>Finland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Γαλλία<s n="np"/><s n="top"/><s n="F"/></l><r>France<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ελλάδα<s n="np"/><s n="top"/><s n="F"/></l><r>Greece<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Μεγάλη Βρετανία<s n="np"/><s n="top"/><s n="F"/></l><r>Great Britain<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ουγγαρία<s n="np"/><s n="top"/><s n="F"/></l><r>Hungary<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ισλανδία<s n="np"/><s n="top"/><s n="F"/></l><r>Iceland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ινδία<s n="np"/><s n="top"/><s n="F"/></l><r>India<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ιράκ<s n="np"/><s n="top"/><s n="N"/></l><r>Iraq<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ιράν<s n="np"/><s n="top"/><s n="N"/></l><r>Iran<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ιρλανδία<s n="np"/><s n="top"/><s n="F"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ισραήλ<s n="np"/><s n="top"/><s n="N"/></l><r>Israel<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ιταλία<s n="np"/><s n="top"/><s n="F"/></l><r>Italy<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ιαπωνία<s n="np"/><s n="top"/><s n="F"/></l><r>Japan<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Κόσοβο<s n="np"/><s n="top"/><s n="N"/></l><r>Kosovo<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Λετονία<s n="np"/><s n="top"/><s n="F"/></l><r>Latvia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Λίβανο<s n="np"/><s n="top"/><s n="N"/></l><r>Lebanon<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Λιχτεστάιν<s n="np"/><s n="top"/><s n="N"/></l><r>Liechtenstein<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Λιθουανία<s n="np"/><s n="top"/><s n="F"/></l><r>Lithuania<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Λουξεμβούργο<s n="np"/><s n="top"/><s n="N"/></l><r>Luxembourg<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Σκόπια<s n="np"/><s n="top"/><s n="N"/></l><r>Macedonia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Μεξικό<s n="np"/><s n="top"/><s n="N"/></l><r>Mexico<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Μολδαβία<s n="np"/><s n="top"/><s n="F"/></l><r>Moldova<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Μονακό<s n="np"/><s n="top"/><s n="N"/></l><r>Monaco<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ολλανδία<s n="np"/><s n="top"/><s n="F"/></l><r>Netherlands<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Νέα Ζηλανδία<s n="np"/><s n="top"/><s n="F"/></l><r>New Zealand<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Νορβηγία<s n="np"/><s n="top"/><s n="F"/></l><r>Norway<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Πολωνία<s n="np"/><s n="top"/><s n="F"/></l><r>Poland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ρουμανία<s n="np"/><s n="top"/><s n="F"/></l><r>Romania<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ρωσία<s n="np"/><s n="top"/><s n="F"/></l><r>Russia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Σκωτία<s n="np"/><s n="top"/><s n="F"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Σλοβενία<s n="np"/><s n="top"/><s n="F"/></l><r>Slovenia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Νότια Αφρική<s n="np"/><s n="top"/><s n="F"/></l><r>South Africa<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Νότια Κορέα<s n="np"/><s n="top"/><s n="F"/></l><r>South Korea<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ισπανία<s n="np"/><s n="top"/><s n="F"/></l><r>Spain<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Σουηδία<s n="np"/><s n="top"/><s n="F"/></l><r>Sweden<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ελβετία<s n="np"/><s n="top"/><s n="F"/></l><r>Switzerland<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Τυνησία<s n="np"/><s n="top"/><s n="F"/></l><r>Tunesia<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Τουρκία<s n="np"/><s n="top"/><s n="F"/></l><r>Turkey<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ουκρανία<s n="np"/><s n="top"/><s n="F"/></l><r>Ukraine<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ηνωμένες Πολιτείες<s n="np"/><s n="top"/><s n="F"/></l><r>United States<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ουαλία<s n="np"/><s n="top"/><s n="F"/></l><r>Wales<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Υεμένη<s n="np"/><s n="top"/><s n="F"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Αυστραλία<s n="np"/><s n="top"/><s n="f"/></l><r>Australia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Αυστρία<s n="np"/><s n="top"/><s n="f"/></l><r>Austria<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Βέλγιο<s n="np"/><s n="top"/><s n="nt"/></l><r>Belgium<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Βραζιλία<s n="np"/><s n="top"/><s n="f"/></l><r>Brazil<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Βουλγαρία<s n="np"/><s n="top"/><s n="f"/></l><r>Bulgaria<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Καναδάς<s n="np"/><s n="top"/><s n="m"/></l><r>Canada<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Κίνα<s n="np"/><s n="top"/><s n="f"/></l><r>China<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Κολομβία<s n="np"/><s n="top"/><s n="f"/></l><r>Columbia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Κροατία<s n="np"/><s n="top"/><s n="f"/></l><r>Croatia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Κύπρος<s n="np"/><s n="top"/><s n="f"/></l><r>Cyprus<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Δανία<s n="np"/><s n="top"/><s n="f"/></l><r>Denmark<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Γερμανία<s n="np"/><s n="top"/><s n="f"/></l><r>Germany<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Αγγλία<s n="np"/><s n="top"/><s n="f"/></l><r>England<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Εστονία<s n="np"/><s n="top"/><s n="f"/></l><r>Estonia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Φινλανδία<s n="np"/><s n="top"/><s n="f"/></l><r>Finland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Γαλλία<s n="np"/><s n="top"/><s n="f"/></l><r>France<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ελλάδα<s n="np"/><s n="top"/><s n="f"/></l><r>Greece<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μεγάλη Βρετανία<s n="np"/><s n="top"/><s n="f"/></l><r>Great Britain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ουγγαρία<s n="np"/><s n="top"/><s n="f"/></l><r>Hungary<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ισλανδία<s n="np"/><s n="top"/><s n="f"/></l><r>Iceland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ινδία<s n="np"/><s n="top"/><s n="f"/></l><r>India<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ιράκ<s n="np"/><s n="top"/><s n="nt"/></l><r>Iraq<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ιράν<s n="np"/><s n="top"/><s n="nt"/></l><r>Iran<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ιρλανδία<s n="np"/><s n="top"/><s n="f"/></l><r>Ireland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ισραήλ<s n="np"/><s n="top"/><s n="nt"/></l><r>Israel<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ιταλία<s n="np"/><s n="top"/><s n="f"/></l><r>Italy<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ιαπωνία<s n="np"/><s n="top"/><s n="f"/></l><r>Japan<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Κόσοβο<s n="np"/><s n="top"/><s n="nt"/></l><r>Kosovo<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Λετονία<s n="np"/><s n="top"/><s n="f"/></l><r>Latvia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Λίβανο<s n="np"/><s n="top"/><s n="nt"/></l><r>Lebanon<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Λιχτεστάιν<s n="np"/><s n="top"/><s n="nt"/></l><r>Liechtenstein<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Λιθουανία<s n="np"/><s n="top"/><s n="f"/></l><r>Lithuania<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Λουξεμβούργο<s n="np"/><s n="top"/><s n="nt"/></l><r>Luxembourg<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Σκόπια<s n="np"/><s n="top"/><s n="nt"/></l><r>Macedonia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μεξικό<s n="np"/><s n="top"/><s n="nt"/></l><r>Mexico<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μολδαβία<s n="np"/><s n="top"/><s n="f"/></l><r>Moldova<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μονακό<s n="np"/><s n="top"/><s n="nt"/></l><r>Monaco<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ολλανδία<s n="np"/><s n="top"/><s n="f"/></l><r>Netherlands<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Νέα Ζηλανδία<s n="np"/><s n="top"/><s n="f"/></l><r>New Zealand<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Νορβηγία<s n="np"/><s n="top"/><s n="f"/></l><r>Norway<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Πολωνία<s n="np"/><s n="top"/><s n="f"/></l><r>Poland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ρουμανία<s n="np"/><s n="top"/><s n="f"/></l><r>Romania<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ρωσία<s n="np"/><s n="top"/><s n="f"/></l><r>Russia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Σκωτία<s n="np"/><s n="top"/><s n="f"/></l><r>Scotland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Σλοβενία<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Νότια Αφρική<s n="np"/><s n="top"/><s n="f"/></l><r>South Africa<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Νότια Κορέα<s n="np"/><s n="top"/><s n="f"/></l><r>South Korea<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ισπανία<s n="np"/><s n="top"/><s n="f"/></l><r>Spain<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Σουηδία<s n="np"/><s n="top"/><s n="f"/></l><r>Sweden<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ελβετία<s n="np"/><s n="top"/><s n="f"/></l><r>Switzerland<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Τυνησία<s n="np"/><s n="top"/><s n="f"/></l><r>Tunesia<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Τουρκία<s n="np"/><s n="top"/><s n="f"/></l><r>Turkey<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ουκρανία<s n="np"/><s n="top"/><s n="f"/></l><r>Ukraine<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ηνωμένες Πολιτείες<s n="np"/><s n="top"/><s n="f"/></l><r>United States<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ουαλία<s n="np"/><s n="top"/><s n="f"/></l><r>Wales<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Υεμένη<s n="np"/><s n="top"/><s n="f"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
 
     <!-- SECTION: Prepositions -->
     <e><p><l>σχετικά<s n="pr"/></l><r>about<s n="pr"/></r></p></e>

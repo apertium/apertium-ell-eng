@@ -1,10 +1,22 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-ell-eng.ell-eng.dix -text
 /apertium-ell-eng.ell-eng.lrx -text
 /apertium-ell-eng.ell.dix -text
+/apertium-ell-eng.eng-ell.rlx -text
+/apertium-ell-eng.eng.acx -text
+/apertium-ell-eng.eng.dix -text svneol=unset#application/xml
+/apertium-ell-eng.post-eng.dix -text
 /apertium-en-el.el.dix -text svneol=unset#application/xml
-/apertium-en-el.en-el.t1x -text svneol=unset#application/xml
-/apertium-en-el.en.dix -text svneol=unset#application/xml
+/apertium-eng-ell.eng-ell.t1x -text svneol=unset#application/xml
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
 texts/rasskaz.ell.txt -text svneol=unset#application/octet-stream
 texts/rasskaz.eng.txt -text
