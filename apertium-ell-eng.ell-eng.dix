@@ -76,8 +76,8 @@
 	<e><p><l>They<s n="prn"/></l><r>Αυτοί<s n="prn"/></r></p></e>
 
 	<!-- SECTION: Conjuctions -->
-    <e><p><l>and<s n="cnjcoo"/></l><r>και<s n="cnjcoo"/></r></p></e>
-    <e><p><l>but<s n="cnjcoo"/></l><r>αλλά<s n="cnjcoo"/></r></p></e>
+    <e><p><l>και<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+    <e><p><l>αλλά<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Colours --> 	<!-- To be reviewed... -->
     <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
