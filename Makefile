@@ -257,7 +257,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX2).autolex.bin $(PREFIX2).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-     $(PREFIX1).prob $(PREFIX2).prob
+     $(PREFIX1).prob 
 
 EXTRA_DIST = $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).lrx \
@@ -627,6 +627,8 @@ uninstall-am: uninstall-apertium_ell_engDATA
 	uninstall-apertium_ell_engDATA
 
 
+#$(PREFIX2).prob
+
 $(PREFIX1).automorf.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).dix $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
 	apertium-validate-acx $(AP_SRC1)/apertium-$(LANG1).$(LANG1).acx
 	apertium-validate-dictionary $<
@@ -704,8 +706,7 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 $(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
 	cp $< $@
 
-$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
-	cp $< $@
+#$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
 
 ###############################################################################
 ###############################################################################
