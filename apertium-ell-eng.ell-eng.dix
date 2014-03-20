@@ -1,11 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <dictionary>
-  <alphabet/>
+<alphabet/>
+
   <sdefs>
-    <sdef n="n"         c="Noun"/>
+    <sdef n="n"      c="Noun"/>
+    <sdef n="np"     c="Proper noun"/>
+    <sdef n="pr"     c="Preposition"/>
+    <sdef n="part"   c="Particle"/>
+    <sdef n="prn"    c="Pronoun"/>
+    <sdef n="num"    c="Numeral"/>
+    <sdef n="adj"    c="Adjective"/>
+    <sdef n="adv"    c="Adverb"/>
+    <sdef n="vblex"  c="Verb"/>
+    <sdef n="nom"    c="Nominative"/>
+    <sdef n="gen"    c="Genitive"/>
+    <sdef n="acc"    c="Accusative"/>
+    <sdef n="voc"    c="Vocative"/>
+    <sdef n="det"    c="Determiner"/>
+    <sdef n="ind"    c="Indefinite"/>
+    <sdef n="def"    c="Defininite"/>
+    <sdef n="sp"     c="Singular / Plural"/>
+    <sdef n="sg"     c="Singular"/>
+    <sdef n="pl"     c="Plural"/>
+    <sdef n="p1"     c="First person"/>
+    <sdef n="p2"     c="Second person"/>
+    <sdef n="p3"     c="Third person"/>
+    <sdef n="f"      c="Feminine"/>
+    <sdef n="m"      c="Masculine"/>
+    <sdef n="nt"     c="Neuter"/>
+    <sdef n="mf"     c="Masculine / Feminine"/>
+    <sdef n="pst"    c="Positive"/>
+    <sdef n="comp"   c="Comparative"/>
+    <sdef n="sup"    c="Superlative"/>
+    <sdef n="cnjcoo" c="Co-ordinating conjunction"/>
+    <sdef n="cnjsub" c="Sub-ordinating conjunction"/>
+    <sdef n="enc"    c="Enclitic"/>
+    <sdef n="itg"    c="Interrogative"/>
+    <sdef n="neg"    c="Negative"/>
+    <sdef n="pri"    c="Present indicative"/>
+    <sdef n="pii"    c="Past imperfect (continuous)"/>
+    <sdef n="aor"    c="Aorist"/>
+    <sdef n="past"   c="Past"/>
+    <sdef n="ger"    c="Gerund"/>
+    <sdef n="top"    c="Toponym"/>
+    <sdef n="ant"    c="Anthroponym"/>
+    <sdef n="sent"   c="Sentence boundary"/>
+	<sdef n="subj"	 c="Subject"/>
+	<sdef n="obj"	 c="Object"/>
+	<sdef n="prsubj__prn"	 c="Object"/>
   </sdefs>
+
   <section id="main" type="standard">
 
-    <!-- SECTION: Nouns -->
+    <!-- SECTION: Adjectives -->
+	<e><p><l>warm<s n="adj"/></l><r>ζεστός<s n="adj"/></r></p></e>
+	<e><p><l>nice<s n="adj"/></l><r>ωραίος<s n="adj"/></r></p></e>
+	<e><p><l>cold<s n="adj"/></l><r>κρύος<s n="adj"/></r></p></e>
+	<e><p><l>big<s n="adj"/></l><r>μεγάλος<s n="adj"/></r></p></e>
+	<e><p><l>little<s n="adj"/></l><r>μικρός<s n="adj"/></r></p></e>
+	<e><p><l>old<s n="adj"/></l><r>παλιός<s n="adj"/></r></p></e>
+	<e><p><l>small<s n="adj"/></l><r>μικρός<s n="adj"/></r></p></e>
+	<e><p><l>happy<s n="adj"/></l><r>χαρούμενος<s n="adj"/></r></p></e>
+
+	<!-- SECTION: Personal Pronouns -->
+	
+	<!-- Subject -->
+	<e><p><l>I<s n="prsubj__prn"/></l><r>Εγώ<s n="prsubj__prn"/></r></p></e>
+	<e><p><l>You<s n="prn"/></l><r>Εσύ<s n="prn"/></r></p></e>
+	<e><p><l>He<s n="prn"/></l><r>Αυτός<s n="prn"/></r></p></e>
+	<e><p><l>She<s n="prn"/></l><r>Αυτή<s n="prn"/></r></p></e>
+	<e><p><l>It<s n="prn"/></l><r>Αυτό<s n="prn"/></r></p></e>
+	<e><p><l>We<s n="prn"/></l><r>Εμείς<s n="prn"/></r></p></e>
+	<e><p><l>You<s n="prn"/></l><r>Εσείς<s n="prn"/></r></p></e>
+	<e><p><l>They<s n="prn"/></l><r>Αυτοί<s n="prn"/></r></p></e>
+
+	<!-- SECTION: Conjuctions -->
+    <e><p><l>and<s n="cnjcoo"/></l><r>και<s n="cnjcoo"/></r></p></e>
+    <e><p><l>but<s n="cnjcoo"/></l><r>αλλά<s n="cnjcoo"/></r></p></e>
+
+    <!-- SECTION: Colours --> 	<!-- To be reviewed... -->
+    <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
+    <e><p><l>άσπρο<s n="n"/><s n="f"/></l><r>white<s n="n"/></r></p></e>
+    <e><p><l>γκρί<s n="n"/><s n="f"/></l><r>gray<s n="n"/></r></p></e>
+    <e><p><l>μπλέ<s n="n"/><s n="f"/></l><r>blue<s n="n"/></r></p></e>
+    <e><p><l>πράσινο<s n="n"/><s n="f"/></l><r>green<s n="n"/></r></p></e>
+    <e><p><l>κίτρινο<s n="n"/><s n="f"/></l><r>yellow<s n="n"/></r></p></e>
+    <e><p><l>κόκκινο<s n="n"/><s n="f"/></l><r>red<s n="n"/></r></p></e>
+    <e><p><l>καφέ<s n="n"/><s n="f"/></l><r>brown<s n="n"/></r></p></e>
+    <e><p><l>μώβ<s n="n"/><s n="f"/></l><r>purple<s n="n"/></r></p></e>
+    <e><p><l>ρόζ<s n="n"/><s n="f"/></l><r>pink<s n="n"/></r></p></e>
+    <e><p><l>τιρκουάζ<s n="n"/><s n="f"/></l><r>turqoise<s n="n"/></r></p></e>
+    <e><p><l>κυανό<s n="n"/><s n="f"/></l><r>cyan<s n="n"/></r></p></e>
+    <e><p><l>πορτοκαλί<s n="n"/><s n="f"/></l><r>orange<s n="n"/></r></p></e>
+
+    <!-- SECTION: Nouns -->		<!-- To be reviewed... -->
     <e c="D"><p><l>διαδικασία<s n="n"/><s n="f"/></l><r>procedure<s n="n"/></r></p></e> 
     <e><p><l>διαδικασία<s n="n"/><s n="f"/></l><r>process<s n="n"/></r></p></e> 
     <e><p><l>διαδικασία<s n="n"/><s n="f"/></l><r>method<s n="n"/></r></p></e> 
@@ -387,7 +476,7 @@
     <e><p><l>πάτωμα<s n="n"/><s n="f"/></l><r>ground<s n="n"/></r></p></e>
     <e><p><l>όροφος<s n="n"/><s n="f"/></l><r>floor<s n="n"/></r></p></e>
     <e><p><l>πάτωμα<s n="n"/><s n="f"/></l><r>floor<s n="n"/></r></p></e>
-    <e><p><l>κουτί<<s n="n"/><s n="f"/></l><r>box<s n="n"/></r></p></e>
+    <e><p><l>κουτί<s n="n"/><s n="f"/></l><r>box<s n="n"/></r></p></e>
     <e><p><l>μελάνι<s n="n"/><s n="f"/></l><r>ink<s n="n"/></r></p></e>
     <e><p><l>παρεμβολή<s n="n"/><s n="f"/></l><r>interference<s n="n"/></r></p></e>
     <e><p><l>επίπεδο<s n="n"/><s n="f"/></l><r>level<s n="n"/></r></p></e>
@@ -443,6 +532,39 @@
     <e><p><l>πληκτρολόγιο<s n="n"/><s n="f"/></l><r>keyboard<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>screen<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>display<s n="n"/></r></p></e>
+
+	<e><p><l>gramophone<s n="n"/></l><r>γραμμόφωνο<s n="n"/></r></p></e>
+	<e><p><l>dog<s n="n"/></l><r>σκύλος<s n="n"/></r></p></e>
+	<e><p><l>weather<s n="n"/></l><r>καιρός<s n="n"/></r></p></e>
+	<e><p><l>house<s n="n"/></l><r>σπίτι<s n="n"/></r></p></e>
+	<e><p><l>boy<s n="n"/></l><r>αγόρι<s n="n"/></r></p></e>
+	<e><p><l>old<s n="n"/></l><r>χρονών<s n="n"/></r></p></e>
+	<e><p><l>sister<s n="n"/></l><r>αδερφή<s n="n"/></r></p></e>
+	<e><p><l>dog<s n="n"/></l><r>σκύλος<s n="n"/></r></p></e>
+	<e><p><l>today<s n="n"/></l><r>σήμερα<s n="n"/></r></p></e>
+	<e><p><l>garden<s n="n"/></l><r>κήπος<s n="n"/></r></p></e>
+	<e><p><l>year<s n="n"/></l><r>χρόνος<s n="n"/></r></p></e>
+	<e><p><l>girl<s n="n"/></l><r>κορίτσι<s n="n"/></r></p></e>
+	<e><p><l>child<s n="n"/></l><r>παιδί<s n="n"/></r></p></e>
+	<e><p><l>cat<s n="n"/></l><r>γάτα<s n="n"/></r></p></e>
+	<e><p><l>mother<s n="n"/></l><r>μητέρα<s n="n"/></r></p></e>
+	<e><p><l>window<s n="n"/></l><r>παράθυρο<s n="n"/></r></p></e>
+	<e><p><l>tree<s n="n"/></l><r>δέντρο<s n="n"/></r></p></e>
+	<e><p><l>hand<s n="n"/></l><r>χέρι<s n="n"/></r></p></e>
+	<e><p><l>eye<s n="n"/></l><r>μάτι<s n="n"/></r></p></e>
+	<e><p><l>game<s n="n"/></l><r>παιχνίδι<s n="n"/></r></p></e>
+	<e><p><l>answer<s n="n"/></l><r>απάντηση<s n="n"/></r></p></e>
+	<e><p><l>question<s n="n"/></l><r>ερώτηση<s n="n"/></r></p></e>
+	<e><p><l>table<s n="n"/></l><r>τραπέζι<s n="n"/></r></p></e>
+	<e><p><l>chair<s n="n"/></l><r>καρέκλα<s n="n"/></r></p></e>
+	<e><p><l>sound<s n="n"/></l><r>ήχος<s n="n"/></r></p></e>
+	<e><p><l>bird<s n="n"/></l><r>πουλί<s n="n"/></r></p></e>
+	<e><p><l>animal<s n="n"/></l><r>ζώο<s n="n"/></r></p></e>
+	<e><p><l>hand<s n="n"/></l><r>χέρι<s n="n"/></r></p></e>
+	<e><p><l>head<s n="n"/></l><r>κεφάλι<s n="n"/></r></p></e>
+	<e><p><l>something<s n="n"/></l><r>κάτι<s n="n"/></r></p></e>
+	<e><p><l>water<s n="n"/></l><r>νερό<s n="n"/></r></p></e>
+	<e><p><l>yesterday<s n="n"/></l><r>χθές<s n="n"/></r></p></e>
 
     <!-- SECTION: Colours -->
     <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
@@ -606,10 +728,10 @@
     <e><p><l>αργός<s n="adj"/></l><r>slow<s n="adj"/></r></p></e>
     <e><p><l>αριθμητικός<s n="adj"/></l><r>numeric<s n="adj"/></r></p></e>
     <e><p><l>πηρυνική<s n="adj"/></l><r>nuclear<s n="adj"/></r></p></e>
-    <e><p><l>ατομική<s n="adj"/></l><r>atomic<s n="adj"/></r></p></e
+    <e><p><l>ατομική<s n="adj"/></l><r>atomic<s n="adj"/></r></p></e>
 
 
-    <!-- SECTION: Adverbs -->
+   
 	<!-- To be updated -->
 
 
