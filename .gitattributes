@@ -6,3 +6,5 @@
 /apertium-en-el.el.dix -text svneol=unset#application/xml
 /apertium-en-el.en-el.t1x -text svneol=unset#application/xml
 /apertium-en-el.en.dix -text svneol=unset#application/xml
+texts/rasskaz.ell.txt -text svneol=unset#application/octet-stream
+texts/rasskaz.eng.txt -text
