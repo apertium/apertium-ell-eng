@@ -3,3 +3,7 @@
 /apertium-ell-eng.ell-eng.dix -text
 /apertium-ell-eng.ell-eng.lrx -text
 /apertium-ell-eng.ell.dix -text
+/apertium-en-el.el.dix -text svneol=unset#application/xml
+/apertium-en-el.en-el.dix -text svneol=unset#application/xml
+/apertium-en-el.en-el.t1x -text svneol=unset#application/xml
+/apertium-en-el.en.dix -text svneol=unset#application/xml
