@@ -887,5 +887,10 @@
     <e><p><l>χωρίς<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
     <e><p><l>σχετικά<b/>με<s n="pr"/></l><r>with<b/>regard<b/>to<s n="pr"/></r></p></e>
   
+    <!-- SECTION: Punctuation -->
+    <e><re>[.\?;:!"…]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+
   </section>
 </dictionary>
