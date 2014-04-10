@@ -49,9 +49,15 @@
 	<sdef n="subj"	 c="Subject"/>
 	<sdef n="obj"	 c="Object"/>
 	<sdef n="prsubj__prn"	 c="Object"/>
+	<sdef n="cadv"	 c="Conjuctive Adverb"/>
   </sdefs>
 
   <section id="main" type="standard">
+
+
+	<!-- SECTION: Particles -->
+	<e><p><l>ναί<s n="prn"/></l><r>yes<s n="prn"/></r></p></e>
+	<e><p><l>όχι<s n="prn"/></l><r>no<s n="prn"/></r></p></e>
 
 	<!-- SECTION: Personal Pronouns -->
 	<e><p><l>Εγώ<s n="prsubj__prn"/></l><r>I<s n="prsubj__prn"/></r></p></e>
@@ -63,11 +69,17 @@
 	<e><p><l>Εσείς<s n="prn"/></l><r>You<s n="prn"/></r></p></e>
 	<e><p><l>Αυτοί<s n="prn"/></l><r>They<s n="prn"/></r></p></e>
 
+	<!-- SECTION: Names -->
+    <e><p><l>Τζέιμς<s n="n"/><s n="f"/></l><r>James<s n="n"/></r></p></e>
+    <e><p><l>Μαρία<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>	
+
 	<!-- SECTION: Conjuctions -->
     <e><p><l>και<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
     <e><p><l>αλλά<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+    <e><p><l>γιατί<s n="cnjcoo"/></l><r>why<s n="cnjcoo"/></r></p></e>
+    <e><p><l>που<s n="cnjcoo"/></l><r>where<s n="cnjcoo"/></r></p></e>
 
-    <!-- SECTION: Colours --> 	<!-- To be reviewed... -->
+    <!-- SECTION: Colours --> 	<!-- To be updated... -->
     <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
     <e><p><l>άσπρο<s n="n"/><s n="f"/></l><r>white<s n="n"/></r></p></e>
     <e><p><l>γκρί<s n="n"/><s n="f"/></l><r>gray<s n="n"/></r></p></e>
@@ -82,7 +94,7 @@
     <e><p><l>κυανό<s n="n"/><s n="f"/></l><r>cyan<s n="n"/></r></p></e>
     <e><p><l>πορτοκαλί<s n="n"/><s n="f"/></l><r>orange<s n="n"/></r></p></e>
 
-    <!-- SECTION: Nouns -->		<!-- To be reviewed... -->
+    <!-- SECTION: Nouns -->		<!-- To be updated... -->
 	<e><p><l>γραμμόφωνο<s n="n"/></l><r>gramophone<s n="n"/></r></p></e>
 	<e><p><l>σκυλάκι<s n="n"/></l><r>dog<s n="n"/></r></p></e>
 	<e><p><l>καιρός<s n="n"/></l><r>weather<s n="n"/></r></p></e>
@@ -109,7 +121,6 @@
 	<e><p><l>ήχος<s n="n"/></l><r>sound<s n="n"/></r></p></e>
 	<e><p><l>πουλί<s n="n"/></l><r>bird<s n="n"/></r></p></e>
 	<e><p><l>ζώο<s n="n"/></l><r>animal<s n="n"/></r></p></e>
-	<e><p><l>χέρι<s n="n"/></l><r>hand<s n="n"/></r></p></e>
 	<e><p><l>κεφάλι<s n="n"/></l><r>head<s n="n"/></r></p></e>
 	<e><p><l>κάτι<s n="n"/></l><r>something<s n="n"/></r></p></e>
 	<e><p><l>νερό<s n="n"/></l><r>water<s n="n"/></r></p></e>
@@ -552,6 +563,7 @@
     <e><p><l>πληκτρολόγιο<s n="n"/><s n="f"/></l><r>keyboard<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>screen<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>display<s n="n"/></r></p></e>
+    <e><p><l>θόρυβος<s n="n"/><s n="f"/></l><r>noise<s n="n"/></r></p></e>
 
     <!-- SECTION: Colours -->
     <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
@@ -611,9 +623,12 @@
     <e><p><l>κοιμάμαι<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
     <e><p><l>κρύβομαι<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
     <e><p><l>αποκρίνομαι<s n="vblex"/></l><r>reply<s n="vblex"/></r></p></e>
+    <e><p><l>πρέπει<s n="vblex"/></l><r>must<s n="vblex"/></r></p></e>
 
+    <e><p><l>νομίζω<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
     <e><p><l>απαντώ<s n="vblex"/></l><r>answer<s n="vblex"/></r></p></e>
     <e><p><l>ζητώ<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+    <e><p><l>ζητώ<s n="vblex"/></l><r>request<s n="vblex"/></r></p></e>
     <e><p><l>ρωτώ<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>ψήνω<s n="vblex"/></l><r>bake<s n="vblex"/></r></p></e>
     <e><p><l>είμαι<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e>
@@ -643,6 +658,7 @@
     <e><p><l>εφευρίσκω<s n="vblex"/></l><r>invent<s n="vblex"/></r></p></e>
     <e><p><l>διατηρώ<s n="vblex"/></l><r>keep<s n="vblex"/></r></p></e>
     <e><p><l>γνωρίζω<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
+    <e><p><l>ξέρω<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
     <e><p><l>μαθαίνω<s n="vblex"/></l><r>learn<s n="vblex"/></r></p></e>
     <e><p><l>ελευθερώνω<s n="vblex"/></l><r>liberate<s n="vblex"/></r></p></e>
     <e><p><l>ζώ<s n="vblex"/></l><r>live<s n="vblex"/></r></p></e>
@@ -651,6 +667,7 @@
     <e><p><l>εννοώ<s n="vblex"/></l><r>mean<s n="vblex"/></r></p></e>
     <e><p><l>ονομάζω<s n="vblex"/></l><r>name<s n="vblex"/></r></p></e>
     <e><p><l>χρειάζομαι<s n="vblex"/></l><r>need<s n="vblex"/></r></p></e>
+    <e><p><l>κάθομαι<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
     <e><p><l>παρενοχλώ<s n="vblex"/></l><r>offend<s n="vblex"/></r></p></e>
     <e><p><l>διατάζω<s n="vblex"/></l><r>order<s n="vblex"/></r></p></e>
     <e><p><l>πληρώνω<s n="vblex"/></l><r>pay<s n="vblex"/></r></p></e>
@@ -672,6 +689,21 @@
     <e><p><l>θέλω<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
     <e><p><l>δουλεύω<s n="vblex"/></l><r>work<s n="vblex"/></r></p></e>
     <e><p><l>γράφω<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
+    <e><p><l>τρέχω<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+    <e><p><l>μετρώ<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+    <e><p><l>περπατώ<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+    <e><p><l>ακούω<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+    <e><p><l>μαζί<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+    <e><p><l>ποτέ<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+    <e><p><l>μάλλον<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
+    <e><p><l>ακόμα<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>ακόμη<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+    <e><p><l>παντού<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Conjuctive Adverbs -->
+    <e><p><l>όμως<s n="cadv"/><s n="f"/></l><r>however<s n="cadv"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
     <e><p><l>δημόσιος<s n="adj"/></l><r>public<s n="adj"/></r></p></e>
@@ -732,8 +764,11 @@
 	<e><p><l>μεγάλος<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
 	<e><p><l>μικρός<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
 	<e><p><l>παλιός<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
+	<e><p><l>γέρικος<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
 	<e><p><l>μικρός<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
 	<e><p><l>χαρούμενος<s n="adj"/></l><r>happy<s n="adj"/></r></p></e>
+	<e><p><l>πολύς<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
+	<e><p><l>τώρα<s n="adj"/></l><r>now<s n="adj"/></r></p></e>
 
 	<!-- To be updated -->
 
@@ -844,6 +879,7 @@
     <e><p><l>ανάμεσα<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
     <e><p><l>ανάμεσα<s n="pr"/></l><r>betweem<s n="pr"/></r></p></e>
     <e><p><l>γύρω<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
+    <e><p><l>τριγύρω<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
     <e><p><l>ως<b/>αποτέλεσμα του<s n="pr"/></l><r>as<b/>a<b/>result<b/>of<s n="pr"/></r></p></e>
     <e><p><l>στο<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
     <e><p><l>στις<s n="pr"/></l><r>at<s n="pr"/></r></p></e>
