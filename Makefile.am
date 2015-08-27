@@ -13,7 +13,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX2).autolex.bin $(PREFIX2).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-     $(PREFIX1).prob 
+     $(PREFIX1).prob $(PREFIX2).prob
 
 #$(PREFIX2).prob
 
@@ -95,7 +95,7 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
 
-#$(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
+$(PREFIX2).prob: 
 
 ###############################################################################
 ## Translation modes
@@ -139,7 +139,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_ell_engdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ell_engdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_ell_engdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX3).t3x $(DESTDIR)$(apertium_ell_engdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_ell_engdir)
 
 
 CLEANFILES = -rf $(TARGETS_COMMON) modes
