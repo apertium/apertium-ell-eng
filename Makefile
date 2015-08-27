@@ -156,22 +156,22 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-APERTIUM_CFLAGS = -I/home/fran/local/include/apertium-3.3 -I/home/fran/local/lib/apertium-3.3/include -I/home/fran/local/include/lttoolbox-3.3 -I/home/fran/local/lib/lttoolbox-3.3/include -I/usr/include/libxml2  
+APERTIUM_CFLAGS = -I/usr/local/include/apertium-3.3 -I/usr/local/lib/apertium-3.3/include -I/usr/local/include/lttoolbox-3.3 -I/usr/local/lib/lttoolbox-3.3/include -I/usr/include/libxml2  
 APERTIUM_ELL_CFLAGS = 
 APERTIUM_ELL_LIBS = 
-APERTIUM_LIBS = -L/home/fran/local/lib -lapertium3 -llttoolbox3 -lxml2 -lpcre  
-AP_LIB1 = /home/fran/source/apertium/languages/apertium-ell
-AP_SRC1 = /home/fran/source/apertium/languages/apertium-ell
-AP_SUBDIRS =  /home/fran/source/apertium/languages/apertium-ell
-AUTOCONF = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/missing autoconf
-AUTOHEADER = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/missing autoheader
-AUTOMAKE = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/missing automake-1.14
+APERTIUM_LIBS = -L/usr/local/lib -lapertium3 -llttoolbox3 -lxml2 -lpcre  
+AP_LIB1 = /home/gema/svn/languages/apertium-ell
+AP_SRC1 = /home/gema/svn/languages/apertium-ell
+AP_SUBDIRS =  /home/gema/svn/languages/apertium-ell
+AUTOCONF = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/missing autoconf
+AUTOHEADER = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/missing autoheader
+AUTOMAKE = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/missing automake-1.14
 AWK = gawk
-CGCOMP = /home/fran/local/bin/cg-comp
-CGPROC = /home/fran/local/bin/cg-proc
+CGCOMP = /usr/bin/cg-comp
+CGPROC = /usr/bin/cg-proc
 CYGPATH_W = echo
 DEFS = -DPACKAGE_NAME=\"apertium-ell-eng\" -DPACKAGE_TARNAME=\"apertium-ell-eng\" -DPACKAGE_VERSION=\"0.2.0\" -DPACKAGE_STRING=\"apertium-ell-eng\ 0.2.0\" -DPACKAGE_BUGREPORT=\"spectre360@users.sourceforge.net\" -DPACKAGE_URL=\"\"
 ECHO_C = 
@@ -186,10 +186,10 @@ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LIBOBJS = 
 LIBS = 
 LN_S = ln -s
-LRXCOMP = /home/fran/local/bin/lrx-comp
-LRXPROC = /home/fran/local/bin/lrx-proc
+LRXCOMP = /usr/local/bin/lrx-comp
+LRXPROC = /usr/local/bin/lrx-proc
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/missing makeinfo
+MAKEINFO = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 PACKAGE = apertium-ell-eng
 PACKAGE_BUGREPORT = spectre360@users.sourceforge.net
@@ -201,16 +201,16 @@ PACKAGE_VERSION = 0.2.0
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = /home/fran/local/lib/pkgconfig:
+PKG_CONFIG_PATH = :/usr/local/share/pkgconfig:/usr/local/lib/pkgconfig
 SET_MAKE = 
-SHELL = /bin/sh
+SHELL = /bin/bash
 STRIP = 
 VERSION = 0.1.0
 ZCAT = zcat
-abs_builddir = /home/fran/source/apertium/incubator/apertium-ell-eng
-abs_srcdir = /home/fran/source/apertium/incubator/apertium-ell-eng
-abs_top_builddir = /home/fran/source/apertium/incubator/apertium-ell-eng
-abs_top_srcdir = /home/fran/source/apertium/incubator/apertium-ell-eng
+abs_builddir = /home/gema/svn/incubator/apertium-ell-eng
+abs_srcdir = /home/gema/svn/incubator/apertium-ell-eng
+abs_top_builddir = /home/gema/svn/incubator/apertium-ell-eng
+abs_top_srcdir = /home/gema/svn/incubator/apertium-ell-eng
 am__leading_dot = .
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
@@ -226,7 +226,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/fran/source/apertium/incubator/apertium-ell-eng/install-sh
+install_sh = ${SHELL} /home/gema/svn/incubator/apertium-ell-eng/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -235,7 +235,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/fran/local
+prefix = /usr/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
@@ -258,7 +258,7 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(PREFIX2).autolex.bin $(PREFIX2).rlx.bin \
      $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
      $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin \
-     $(PREFIX1).prob 
+     $(PREFIX1).prob $(PREFIX2).prob
 
 EXTRA_DIST = $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(PREFIX1).lrx \
@@ -704,10 +704,10 @@ $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
 
-$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
+$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
 
-#$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
+$(PREFIX2).prob: 
 
 ###############################################################################
 ###############################################################################
@@ -732,7 +732,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_ell_engdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ell_engdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_ell_engdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX3).t3x $(DESTDIR)$(apertium_ell_engdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_ell_engdir)
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
