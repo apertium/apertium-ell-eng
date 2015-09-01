@@ -13,6 +13,7 @@
     <sdef n="adj"    c="Adjective"/>
     <sdef n="adv"    c="Adverb"/>
     <sdef n="vblex"  c="Verb"/>
+    <sdef n="vaux"  c="Vaux"/>
     <sdef n="vbser"  c="Verb to be"/>
     <sdef n="vbhaver"  c="Verb to have"/>
     <sdef n="nom"    c="Nominative"/>
@@ -52,35 +53,69 @@
 	<sdef n="subj"	 c="Subject"/>
 	<sdef n="obj"	 c="Object"/>
 	<sdef n="prsubj__prn"	 c="Object"/>
-	<sdef n="cadv"	 c="Conjuctive Adverb"/>
+	<sdef n="cnjadv"	 c="Conjuctive Adverb"/>
   </sdefs>
 
   <section id="main" type="standard">
 
 
+
+    <!-- SECTION: Punctuation -->
+    <e><re>[.\?;:!"…]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+	<!-- SECTION: Adverbs -->
+	<e><p><l>ναί<s n="adv"/></l><r>yes<s n="adv"/></r></p></e>
+	<e><p><l>όχι<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+	<e><p><l>δεν<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+	<e><p><l>δε<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
+        <e><p><l>γιατί<s n="adv"/></l><r>why<s n="adv"/></r></p></e>
+        <e><p><l>που<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+       <e><p><l>μαζί<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+       <e><p><l>ποτέ<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+       <e><p><l>μάλλον<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
+       <e><p><l>ακόμα<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+       <e><p><l>ακόμη<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
+       <e><p><l>παντού<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
+
+
 	<!-- SECTION: Particles -->
-	<e><p><l>ναί<s n="prn"/></l><r>yes<s n="prn"/></r></p></e>
-	<e><p><l>όχι<s n="prn"/></l><r>no<s n="prn"/></r></p></e>
+        <e><p><l>θα<s n="part"/></l><r>will<s n="vaux"/></r></p></e>
+
+
+	<!-- SECTION: Determiners -->
+	<e><p><l>ο<s n="det"/></l><r>the<s n="det"/></r></p></e>
+	<e><p><l>ένας<s n="det"/></l><r>a<s n="det"/></r></p></e>
 
 	<!-- SECTION: Personal Pronouns -->
-	<e><p><l>Εγώ<s n="prsubj__prn"/></l><r>I<s n="prsubj__prn"/></r></p></e>
-	<e><p><l>Εσύ<s n="prn"/></l><r>You<s n="prn"/></r></p></e>
-	<e><p><l>Αυτός<s n="prn"/></l><r>He<s n="prn"/></r></p></e>
-	<e><p><l>Αυτή<s n="prn"/></l><r>She<s n="prn"/></r></p></e>
-	<e><p><l>Αυτό<s n="prn"/></l><r>It<s n="prn"/></r></p></e>
-	<e><p><l>Εμείς<s n="prn"/></l><r>We<s n="prn"/></r></p></e>
-	<e><p><l>Εσείς<s n="prn"/></l><r>You<s n="prn"/></r></p></e>
-	<e><p><l>Αυτοί<s n="prn"/></l><r>They<s n="prn"/></r></p></e>
-
-	<!-- SECTION: Names -->
-    <e><p><l>Τζέιμς<s n="n"/><s n="f"/></l><r>James<s n="n"/></r></p></e>
-    <e><p><l>Μαρία<s n="n"/><s n="f"/></l><r>Mary<s n="n"/></r></p></e>	
+	<e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
 
 	<!-- SECTION: Conjuctions -->
-    <e><p><l>και<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
-    <e><p><l>αλλά<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
-    <e><p><l>γιατί<s n="cnjcoo"/></l><r>why<s n="cnjcoo"/></r></p></e>
-    <e><p><l>που<s n="cnjcoo"/></l><r>where<s n="cnjcoo"/></r></p></e>
+        <e><p><l>και<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>κι<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+        <e><p><l>ή<s n="cnjcoo"/></l><r>or<s n="cnjcoo"/></r></p></e>
+        <e><p><l>είτε<s n="cnjcoo"/></l><r>either<s n="cnjcoo"/></r></p></e>
+        <e><p><l>ούτε<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>μήτε<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>ουδέ<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>μηδέ<s n="cnjcoo"/></l><r>nor<s n="cnjcoo"/></r></p></e>
+        <e><p><l>αλλά<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>όμως<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+        <e r="LR"><p><l>μα<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
+
+
+        <e><p><l>ότι<s n="cnjsub"/></l><r>that<s n="cnjsub"/></r></p></e>
+        <e><p><l>εάν<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
+        <e><p><l>επειδή<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
+        <e><p><l>μολονότι<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
+        <e r="LR"><p><l>αν<b/>και<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
+        <e r="LR"><p><l>να<s n="cnjsub"/></l><r>to<s n="cnjsub"/></r></p></e>
+        <e><p><l>για<b/>να<s n="cnjsub"/></l><r>in<b/>order<b/>to<s n="cnjsub"/></r></p></e>
+
+
+        <e><p><l>όμως<s n="cnjadv"/><s n="f"/></l><r>however<s n="cnjadv"/></r></p></e>
+
+
 
     <!-- SECTION: Colours --> 	<!-- To be updated... -->
     <e><p><l>μαύρο<s n="n"/><s n="f"/></l><r>black<s n="n"/></r></p></e>
@@ -692,20 +727,8 @@
     <e><p><l>δουλεύω<s n="vblex"/></l><r>work<s n="vblex"/></r></p></e>
     <e><p><l>γράφω<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
     <e><p><l>τρέχω<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
-    <e><p><l>μετρώ<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
     <e><p><l>περπατώ<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>ακούω<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
-
-    <!-- SECTION: Adverbs -->
-    <e><p><l>μαζί<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
-    <e><p><l>ποτέ<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
-    <e><p><l>μάλλον<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
-    <e><p><l>ακόμα<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
-    <e><p><l>ακόμη<s n="adv"/></l><r>still<s n="adv"/></r></p></e>
-    <e><p><l>παντού<s n="adv"/></l><r>everywhere<s n="adv"/></r></p></e>
-
-    <!-- SECTION: Conjuctive Adverbs -->
-    <e><p><l>όμως<s n="cadv"/><s n="f"/></l><r>however<s n="cadv"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
     <e><p><l>δημόσιος<s n="adj"/></l><r>public<s n="adj"/></r></p></e>
@@ -775,42 +798,51 @@
 	<!-- To be updated -->
 
     <!-- SECTION: Numbers -->
-    <e><p><l>μηδέν<s n="num"/><s n="sp"/></l><r>zero<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>ένα<s n="num"/><s n="sp"/></l><r>one<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δύο<s n="num"/><s n="sp"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δυό<s n="num"/><s n="sp"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>τρία<s n="num"/><s n="sp"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>τέσσερα<s n="num"/><s n="sp"/></l><r>four<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>πέντε<s n="num"/><s n="sp"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>έξι<s n="num"/><s n="sp"/></l><r>six<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>επτά<s n="num"/><s n="sp"/></l><r>seven<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>οκτώ<s n="num"/><s n="sp"/></l><r>eight<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εννιά<s n="num"/><s n="sp"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εννέα<s n="num"/><s n="sp"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δέκα<s n="num"/><s n="sp"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>έντεκα<s n="num"/><s n="sp"/></l><r>eleven<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δώδεκα<s n="num"/><s n="sp"/></l><r>twelve<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκατρία<s n="num"/><s n="sp"/></l><r>thirteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκατέσσερα<s n="num"/><s n="sp"/></l><r>fourteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαπέντε<s n="num"/><s n="sp"/></l><r>fifteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαέξι<s n="num"/><s n="sp"/></l><r>sixteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαεπτά<s n="num"/><s n="sp"/></l><r>seventeen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαοκτώ<s n="num"/><s n="sp"/></l><r>eighteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαεννιά<s n="num"/><s n="sp"/></l><r>nineteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δεκαεννέα<s n="num"/><s n="sp"/></l><r>nineteen<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>είκοσι<s n="num"/><s n="sp"/></l><r>twenty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>τριάντα<s n="num"/><s n="sp"/></l><r>thirty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>σαράντα<s n="num"/><s n="sp"/></l><r>fourty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>πενήντα<s n="num"/><s n="sp"/></l><r>fifty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εξήντα<s n="num"/><s n="sp"/></l><r>sixty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εβδομήντα<s n="num"/><s n="sp"/></l><r>seventy<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>ογδόντα<s n="num"/><s n="sp"/></l><r>eighty<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>ενενήντα<s n="num"/><s n="sp"/></l><r>ninety<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εκατό<s n="num"/><s n="sp"/></l><r>one<b />hundred<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>χίλια<s n="num"/><s n="sp"/></l><r>one<b />thousand<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>εκατομμύριο<s n="num"/><s n="sp"/></l><r>million<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>δισεκατομμύριο<s n="num"/><s n="sp"/></l><r>billion<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>τρισεκατομμύριο<s n="num"/><s n="sp"/></l><r>trillion<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>μηδέν<s n="num"/></l><r>zero<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ένας<s n="num"/></l><r>one<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δύο<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δυό<s n="num"/></l><r>two<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>τρία<s n="num"/></l><r>three<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>τέσσερα<s n="num"/></l><r>four<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>πέντε<s n="num"/></l><r>five<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>έξι<s n="num"/></l><r>six<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>επτά<s n="num"/></l><r>seven<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>οκτώ<s n="num"/></l><r>eight<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εννιά<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εννέα<s n="num"/></l><r>nine<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δέκα<s n="num"/></l><r>ten<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>έντεκα<s n="num"/></l><r>eleven<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δώδεκα<s n="num"/></l><r>twelve<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκατρία<s n="num"/></l><r>thirteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκατέσσερα<s n="num"/></l><r>fourteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαπέντε<s n="num"/></l><r>fifteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαέξι<s n="num"/></l><r>sixteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαεπτά<s n="num"/></l><r>seventeen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαοκτώ<s n="num"/></l><r>eighteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαεννιά<s n="num"/></l><r>nineteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δεκαεννέα<s n="num"/></l><r>nineteen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>είκοσι<s n="num"/></l><r>twenty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>τριάντα<s n="num"/></l><r>thirty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>σαράντα<s n="num"/></l><r>fourty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>πενήντα<s n="num"/></l><r>fifty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εξήντα<s n="num"/></l><r>sixty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εβδομήντα<s n="num"/></l><r>seventy<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ογδόντα<s n="num"/></l><r>eighty<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>ενενήντα<s n="num"/></l><r>ninety<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εκατό<s n="num"/></l><r>one<b />hundred<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>χίλια<s n="num"/></l><r>one<b />thousand<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>εκατομμύριο<s n="num"/></l><r>million<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>δισεκατομμύριο<s n="num"/></l><r>billion<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>τρισεκατομμύριο<s n="num"/></l><r>trillion<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- SECTION: Names -->
+    <e><p><l>Τζέιμς<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Ανδρέας<s n="np"/><s n="ant"/><s n="m"/></l><r>Andreas<s n="n"/><s n="ant"/></r></p></e>
+    <e><p><l>Προκόπης<s n="np"/><s n="ant"/><s n="m"/></l><r>Prokopis<s n="n"/><s n="ant"/></r></p></e>
+    <e><p><l>Βασίλης<s n="np"/><s n="ant"/><s n="m"/></l><r>Vasilis<s n="n"/><s n="ant"/></r></p></e>
+    <e><p><l>Μαρία<s n="np"/><s n="ant"/><s n="f"/></l><r>Mary<s n="n"/><s n="ant"/></r></p></e>
+    <e><p><l>Σμαράγδα<s n="np"/><s n="ant"/><s n="f"/></l><r>Smaragda<s n="n"/><s n="ant"/></r></p></e>	
+    <e><p><l>Κωνσταντίνα<s n="np"/><s n="ant"/><s n="f"/></l><r>Constantina<s n="n"/><s n="ant"/></r></p></e>
 
     <!-- SECTION: Countries -->
     <e><p><l>Αυστραλία<s n="np"/><s n="top"/><s n="f"/></l><r>Australia<s n="np"/><s n="top"/></r></p></e>
@@ -869,6 +901,8 @@
     <e><p><l>Ηνωμένες Πολιτείες<s n="np"/><s n="top"/><s n="f"/></l><r>United States<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ουαλία<s n="np"/><s n="top"/><s n="f"/></l><r>Wales<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Υεμένη<s n="np"/><s n="top"/><s n="f"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μακεδονία<s n="np"/><s n="top"/><s n="f"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
+
 
     <!-- SECTION: Prepositions -->
     <e><p><l>σχετικά<s n="pr"/></l><r>about<s n="pr"/></r></p></e>
@@ -877,9 +911,10 @@
     <e><p><l>μετά<s n="pr"/></l><r>after<s n="pr"/></r></p></e>
     <e><p><l>μαζί<s n="pr"/></l><r>along<s n="pr"/></r></p></e>
     <e><p><l>ενάντια<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
+    <e><p><l>εναντίον<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>κατά<s n="pr"/></l><r>against<s n="pr"/></r></p></e>
     <e><p><l>ανάμεσα<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
-    <e><p><l>ανάμεσα<s n="pr"/></l><r>betweem<s n="pr"/></r></p></e>
+    <e><p><l>ανάμεσα<s n="pr"/></l><r>between<s n="pr"/></r></p></e>
     <e><p><l>γύρω<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
     <e><p><l>τριγύρω<s n="pr"/></l><r>around<s n="pr"/></r></p></e>
     <e><p><l>ως<b/>αποτέλεσμα του<s n="pr"/></l><r>as<b/>a<b/>result<b/>of<s n="pr"/></r></p></e>
@@ -899,7 +934,8 @@
     <e><p><l>μέσα<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>μπροστά<b/>από<s n="pr"/></l><r>in front of<s n="pr"/></r></p></e>
     <e><p><l>παρόλο<b/>που<s n="pr"/></l><r>in spite of<s n="pr"/></r></p></e>
-    <e><p><l>αντί για<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
+    <e r="LR"><p><l>αντί για<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
+    <e><p><l>αντί<s n="pr"/></l><r>instead of<s n="pr"/></r></p></e>
     <e><p><l>μέσα<s n="pr"/></l><r>into<s n="pr"/></r></p></e>
     <e><p><l>κοντά<s n="pr"/></l><r>near<s n="pr"/></r></p></e>
     <e><p><l>δίπλα σε<s n="pr"/></l><r>next to<s n="pr"/></r></p></e>
@@ -915,21 +951,29 @@
     <e><p><l>από<s n="pr"/></l><r>since<s n="pr"/></r></p></e>
     <e><p><l>μέσα<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
     <e><p><l>σε<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>εις<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>εν<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
     <e><p><l>προς<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>κατά<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>προς<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
     <e><p><l>κατά<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
     <e><p><l>κάτω<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
     <e><p><l>μαζί<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
+    <e><p><l>με<s n="pr"/></l><r>with<s n="pr"/></r></p></e>
     <e><p><l>μέσα<s n="pr"/></l><r>within<s n="pr"/></r></p></e>
     <e><p><l>χωρίς<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
     <e><p><l>σχετικά<b/>με<s n="pr"/></l><r>with<b/>regard<b/>to<s n="pr"/></r></p></e>
-  
-    <!-- SECTION: Punctuation -->
-    <e><re>[.\?;:!"…]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+    <e><p><l>μείον<s n="pr"/></l><r>minus<s n="pr"/></r></p></e>
+    <e><p><l>μείον<s n="pr"/></l><r>among<s n="pr"/></r></p></e>
+    <e><p><l>σαν<s n="pr"/></l><r>like<s n="pr"/></r></p></e>
+    <e><p><l>σαν<s n="pr"/></l><r>as<s n="pr"/></r></p></e>
+    <e><p><l>ίσαμε<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
+    <e><p><l>δίχως<s n="pr"/></l><r>without<s n="pr"/></r></p></e>
+    <e><p><l>μέχρι<s n="pr"/></l><r>until<s n="pr"/></r></p></e> 
+    <e><p><l>μέχρι<s n="pr"/></l><r>until<s n="pr"/></r></p></e>
+    <e><p><l>παρά<s n="pr"/></l><r>from<s n="pr"/></r></p></e>
 
-    <!-- SECTION: Adjectives from monolingual translated with GT -->
+   <!-- SECTION: Adjectives from monolingual translated with GT -->
 <e><p><l>σωστός<s n="adj"/></l><r>right<s n="adj"/></r></p></e>
 <e><p><l>μοναδικός<s n="adj"/></l><r>unique<s n="adj"/></r></p></e>
 <e><p><l>άρρωστος<s n="adj"/></l><r>sick<s n="adj"/><s n="sint"/></r></p></e>
@@ -1015,6 +1059,8 @@
 <e><p><l>μυστηριώδης<s n="adj"/></l><r>mysterious<s n="adj"/></r></p></e>
 <e><p><l>δεύτερος<s n="adj"/></l><r>second<s n="adj"/></r></p></e>
 <e><p><l>μέσος<s n="adj"/></l><r>medium<s n="adj"/></r></p></e>
+
+
     <!-- SECTION: Nouns from monolingual ell translated with Wikipedia interlinks -->
 
 <e c="also άνοιξη"><p><l>έαρ<s n="n"/><s n="nt"/></l><r>spring<s n="n"/></r></p></e>
@@ -1463,7 +1509,7 @@
 <e><p><l>θαύμα<s n="n"/><s n="nt"/></l><r>miracle<s n="n"/></r></p></e>
 <e><p><l>θαυμαστικό<s n="n"/><s n="nt"/></l><r>exclamation<b/>mark<s n="n"/></r></p></e>
 <e><p><l>θεία<s n="n"/><s n="f"/></l><r>theia<s n="n"/></r></p></e>
-<e><p><l>θέμα<s n="n"/><s n="nt"/></l><r>thema<s n="n"/></r></p></e>
+<e><p><l>θέμα<s n="n"/><s n="nt"/></l><r>subject<s n="n"/></r></p></e>
 <e><p><l>θεολόγος<s n="n"/><s n="m"/></l><r>theologos<s n="n"/></r></p></e>
 <e><p><l>θεός<s n="n"/><s n="m"/></l><r>god<s n="n"/></r></p></e>
 <e><p><l>θεότητα<s n="n"/><s n="f"/></l><r>deity<s n="n"/></r></p></e>
@@ -1561,6 +1607,7 @@
 <e><p><l>κεφάλι<s n="n"/><s n="nt"/></l><r>head<s n="n"/></r></p></e>
 <e><p><l>κεχριμπάρι<s n="n"/><s n="nt"/></l><r>amber<s n="n"/></r></p></e>
 <e><p><l>κηδεία<s n="n"/><s n="f"/></l><r>funeral<s n="n"/></r></p></e>
+<e><p><l>παιδεία<s n="n"/><s n="f"/></l><r>education<s n="n"/></r></p></e>
 <e><p><l>κιθάρα<s n="n"/><s n="f"/></l><r>guitar<s n="n"/></r></p></e>
 <e><p><l>κιθαρίστας<s n="n"/><s n="m"/></l><r>guitar<s n="n"/></r></p></e>
 <e><p><l>κιλό<s n="n"/><s n="nt"/></l><r>kilo<s n="n"/></r></p></e>
@@ -1820,7 +1867,7 @@
 <e><p><l>παράδεισος<s n="n"/><s n="m"/></l><r>paradise<s n="n"/></r></p></e>
 <e><p><l>παράθυρο<s n="n"/><s n="nt"/></l><r>window<s n="n"/></r></p></e>
 <e><p><l>παραλία<s n="n"/><s n="f"/></l><r>beach<s n="n"/></r></p></e>
-<e c="check gender"><p><l>παρασκευή<s n="n"/><s n="m"/></l><r>friday<s n="n"/></r></p></e>
+<e c="check gender"><p><l>Παρασκευή<s n="n"/><s n="f"/></l><r>Friday<s n="n"/></r></p></e>
 <e><p><l>παρθενογένεση<s n="n"/><s n="f"/></l><r>parthenogenesis<s n="n"/></r></p></e>
 <e><p><l>πατρίδα<s n="n"/><s n="f"/></l><r>homeland<s n="n"/></r></p></e>
 <e><p><l>παχυσαρκία<s n="n"/><s n="f"/></l><r>obesity<s n="n"/></r></p></e>
@@ -2147,10 +2194,51 @@
 
     <!-- SECTION: Verbs from monolingual ell translated with GT -->
 
-<e><p><l>είμαι<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
-<e><p><l>έχω<s n="vbhaver"/></l><r>have<s n="vbhaver"/></r></p></e>
-<e><p><l>γράφωγράφω<s n="vblex"/></l><r>write<s n="vblex"/></r></p></e>
-<e><p><l>νυστάζω<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+    <e><p><l>είμαι<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+    <e><p><l>έχω<s n="vbhaver"/></l><r>have<s n="vbhaver"/></r></p></e>
+    <e><p><l>νυστάζω<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+
+    <!-- SECTION: Verbs from ILSP corpora translated with GT -->
+
+    <e><p><l>διαβλέπω<s n="vblex"/></l><r>forsee<s n="vblex"/></r></p></e>
+    <e><p><l>ενσωματώνω<s n="vblex"/></l><r>incorporate<s n="vblex"/></r></p></e>
+    <e r="RL"><p><l>μετρώ<s n="vblex"/></l><r>measure<s n="vblex"/></r></p></e> 
+    <e><p><l>καταμετρώ<s n="vblex"/></l><r>admeasure<s n="vblex"/></r></p></e>
+    <e><p><l>λησμονώ<s n="vblex"/></l><r>forget<s n="vblex"/></r></p></e>
+    <e><p><l>καταναλώνω<s n="vblex"/></l><r>consume<s n="vblex"/></r></p></e>
+    <e><p><l>αναλώνω<s n="vblex"/></l><r>expend<s n="vblex"/></r></p></e>
+    <e><p><l>ανταλλάζω<s n="vblex"/></l><r>redeem<s n="vblex"/></r></p></e>
+    <e><p><l>παραβλέπω<s n="vblex"/></l><r>overlook<s n="vblex"/></r></p></e>
+    <e><p><l>διδάσκω<s n="vblex"/></l><r>teach<s n="vblex"/></r></p></e>
+    <e><p><l>δείχνω<s n="vblex"/></l><r>show<s n="vblex"/></r></p></e>
+    <e><p><l>αιτιολογώ<s n="vblex"/></l><r>rationalize<s n="vblex"/></r></p></e>
+    <e><p><l>ξεπερνώ<s n="vblex"/></l><r>surpass<s n="vblex"/></r></p></e>
+    <e><p><l>υπεκφεύγω<s n="vblex"/></l><r>tergiversate<s n="vblex"/></r></p></e>
+    <e><p><l>φεύγω<s n="vblex"/></l><r>clear off<s n="vblex"/></r></p></e> 
+    <e><p><l>εκφεύγω<s n="vblex"/></l><r>baffle<s n="vblex"/></r></p></e>
+    <e><p><l>χαρίζω<s n="vblex"/></l><r>donate<s n="vblex"/></r></p></e>
+    <e><p><l>επαναδιαμορφώνω<s n="vblex"/></l><r>reconfigure<s n="vblex"/></r></p></e>
+    <e><p><l>διαμορφώνω<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
+    <e><p><l>αναδιαμορφώνω<s n="vblex"/></l><r>remodel<s n="vblex"/></r></p></e> 
+    <e><p><l>συνδιαμορφώνω<s n="vblex"/></l><r>shape<s n="vblex"/></r></p></e> 
+    <e><p><l>ξανακοιτάζω<s n="vblex"/></l><r>look through<s n="vblex"/></r></p></e>   
+    <e><p><l>κοιτάζω<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+    <e><p><l>μένω<s n="vblex"/></l><r>stay<s n="vblex"/></r></p></e>  
+    <e><p><l>δρω<s n="vblex"/></l><r>act<s n="vblex"/></r></p></e>   
+    <e><p><l>διαδρω<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+    <e><p><l>επενδύω<s n="vblex"/></l><r>invest<s n="vblex"/></r></p></e>
+    <e><p><l>προσχωρώ<s n="vblex"/></l><r>accede<s n="vblex"/></r></p></e>
+    <e><p><l>θέλω<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>  
+    <e><p><l>αποδοκιμάζω<s n="vblex"/></l><r>disapprove<s n="vblex"/></r></p></e>   
+    <e><p><l>δοκιμάζω<s n="vblex"/></l><r>test<s n="vblex"/></r></p></e>
+    <e><p><l>μεταφέρω<s n="vblex"/></l><r>convey<s n="vblex"/></r></p></e>
+    <e><p><l>ονειρεύομαι<s n="vblex"/></l><r>dream<s n="vblex"/></r></p></e>   
+    <e><p><l>παραδέχομαι<s n="vblex"/></l><r>admit<s n="vblex"/></r></p></e>   
+    <e><p><l>πιστεύω<s n="vblex"/></l><r>believe<s n="vblex"/></r></p></e>
+    <e><p><l>φιλοξενώ<s n="vblex"/></l><r>entertain<s n="vblex"/></r></p></e>
+    <e><p><l>δημιουργώ<s n="vblex"/></l><r>create<s n="vblex"/></r></p></e>
+    <e><p><l>καθυστερώ<s n="vblex"/></l><r>delay<s n="vblex"/></r></p></e>
+    <e><p><l>ξεκινώ<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
 
 
   </section>
