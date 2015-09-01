@@ -19935,6 +19935,7 @@
     <e lm="worker"><i>worker</i><par n="house__n"/></e>
     <e lm="workshop"><i>workshop</i><par n="house__n"/></e>
     <e lm="world"><i>world</i><par n="house__n"/></e>
+    <e lm="gulf"><i>gulf</i><par n="house__n"/></e>
     <e lm="worm"><i>worm</i><par n="house__n"/></e>
     <e lm="worry"><i>worr</i><par n="bab/y__n"/></e>
     <e lm="worship"><i>worship</i><par n="house__n"/></e>
