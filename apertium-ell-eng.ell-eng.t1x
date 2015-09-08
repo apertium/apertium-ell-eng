@@ -1311,6 +1311,69 @@
       </action>
     </rule>
 
+ <rule comment="det_nom_nom">
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="nom"/>
+      </pattern>      
+      <action>
+        <call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <call-macro n="nom_adapter"><with-param pos="3"/></call-macro>
+        <call-macro n="det_adapter"><with-param pos="1"/></call-macro>
+   <choose>   
+          <when>  
+            <test>
+              <equal><clip pos="3" side="sl" part="a_case"/><lit-tag v="gen"/></equal>
+            </test>
+        <out>   
+          <chunk name="det_nom_of_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>  
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out> 
+       </when>     
+        <otherwise>
+        <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu> 
+
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu> 
+          </chunk>
+        </out> 
+      </otherwise>
+      </choose>
+      </action>
+    </rule>
 
 
    <rule comment="adj_nom">
@@ -1365,6 +1428,61 @@
         </choose>
       </action>
     </rule>
+
+
+   <rule comment="nom_nom">
+      <pattern>
+	<pattern-item n="nom"/>
+	<pattern-item n="nom"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+	<call-macro n="nom_adapter"><with-param pos="2"/></call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="sl" part="a_case"/><lit-tag v="gen"/></equal>
+            </test>
+	<out>
+          <chunk name="nom_of_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="of"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out> 
+       </when>
+	<otherwise>
+        <out>
+          <chunk name="nom_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out> 
+      </otherwise>
+        </choose>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: SENT">

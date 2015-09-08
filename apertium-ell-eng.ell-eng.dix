@@ -89,6 +89,12 @@
 
 	<!-- SECTION: Personal Pronouns -->
 	<e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+	<e><p><l>ποιος<s n="prn"/></l><r>who<s n="prn"/></r></p></e>
+	<e><p><l>οποίος<s n="prn"/></l><r>which<s n="prn"/></r></p></e>
+	<e><p><l>κάτι<s n="prn"/></l><r>something<s n="prn"/></r></p></e>
+
+
+
 
 	<!-- SECTION: Conjuctions -->
         <e><p><l>και<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
@@ -108,6 +114,7 @@
         <e><p><l>εάν<s n="cnjsub"/></l><r>if<s n="cnjsub"/></r></p></e>
         <e><p><l>επειδή<s n="cnjsub"/></l><r>because<s n="cnjsub"/></r></p></e>
         <e><p><l>μολονότι<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
+        <e r="LR"><p><l>παρότι<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
         <e r="LR"><p><l>αν<b/>και<s n="cnjsub"/></l><r>although<s n="cnjsub"/></r></p></e>
         <e r="LR"><p><l>να<s n="cnjsub"/></l><r>to<s n="cnjsub"/></r></p></e>
         <e><p><l>για<b/>να<s n="cnjsub"/></l><r>in<b/>order<b/>to<s n="cnjsub"/></r></p></e>
@@ -641,6 +648,7 @@
     <e><p><l>φύλο<s n="n"/><s n="f"/></l><r>sex<s n="n"/></r></p></e>
     <e><p><l>άνδρας<s n="n"/><s n="f"/></l><r>male<s n="n"/></r></p></e>
     <e><p><l>γυναίκα<s n="n"/><s n="f"/></l><r>female<s n="n"/></r></p></e>
+    <e><p><l>πρύτανης<s n="n"/><s n="f"/></l><r>rector<s n="n"/></r></p></e>
 
     <!-- SECTION: Verbs -->
     <e><p><l>αρέσω<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
@@ -783,6 +791,10 @@
     <e><p><l>αριθμητικός<s n="adj"/></l><r>numeric<s n="adj"/></r></p></e>
     <e><p><l>πηρυνική<s n="adj"/></l><r>nuclear<s n="adj"/></r></p></e>
     <e><p><l>ατομική<s n="adj"/></l><r>atomic<s n="adj"/></r></p></e>
+    <e><p><l>συγκεκριμένος<s n="adj"/></l><r>specific<s n="adj"/></r></p></e>
+    <e><p><l>ερχόμενος<s n="adj"/></l><r>next<s n="adj"/></r></p></e>
+
+
 	<e><p><l>ζεστός<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>καλός<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>κρύος<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
@@ -952,8 +964,10 @@
     <e><p><l>μέσα<s n="pr"/></l><r>through<s n="pr"/></r></p></e>
     <e><p><l>σε<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>εις<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+   <e><p><l>επί<s n="pr"/></l><r>on<s n="pr"/></r></p></e>
     <e><p><l>εν<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
-    <e><p><l>προς<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
+   <e><p><l>εκ<s n="pr"/></l><r>of<s n="pr"/></r></p></e>  
+   <e><p><l>προς<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>κατά<s n="pr"/></l><r>to<s n="pr"/></r></p></e>
     <e><p><l>προς<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
     <e><p><l>κατά<s n="pr"/></l><r>towards<s n="pr"/></r></p></e>
