@@ -11736,6 +11736,8 @@
     <e lm="washing"><i>washing</i><par n="east__n"/></e>
     <e lm="conformity"><i>conformity</i><par n="east__n"/></e>
     <e lm="microfinancing"><i>microfinancing</i><par n="east__n"/></e>
+    <e lm="financing"><i>financing</i><par n="east__n"/></e>
+    <e lm="feeding"><i>feeding</i><par n="east__n"/></e>
 
     <e lm="ambrosia"><i>ambrosia</i><par n="house__n"/></e>
     <e lm="anathema"><i>anathema</i><par n="house__n"/></e>
