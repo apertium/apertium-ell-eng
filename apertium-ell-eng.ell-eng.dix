@@ -294,7 +294,7 @@
     <e><p><l>παραγωγή<s n="n"/><s n="f"/></l><r>production<s n="n"/></r></p></e>
     <e><p><l>αποτέλεσμα<s n="n"/><s n="f"/></l><r>result<s n="n"/></r></p></e>
     <e><p><l>επιφάνεια<s n="n"/><s n="f"/></l><r>surface<s n="n"/></r></p></e>
-    <e><p><l>ποσό<s n="n"/><s n="f"/></l><r>ammount<s n="n"/></r></p></e>
+    <e><p><l>ποσό<s n="n"/><s n="nt"/></l><r>amount<s n="n"/></r></p></e>
     <e><p><l>περίπτωση<s n="n"/><s n="f"/></l><r>occasion<s n="n"/></r></p></e>
     <e><p><l>περιοδικό<s n="n"/><s n="f"/></l><r>magazine<s n="n"/></r></p></e>
     <e><p><l>εφημερίδα<s n="n"/><s n="f"/></l><r>newspaper<s n="n"/></r></p></e>
@@ -648,7 +648,6 @@
     <e><p><l>φύλο<s n="n"/><s n="f"/></l><r>sex<s n="n"/></r></p></e>
     <e><p><l>άνδρας<s n="n"/><s n="f"/></l><r>male<s n="n"/></r></p></e>
     <e><p><l>γυναίκα<s n="n"/><s n="f"/></l><r>female<s n="n"/></r></p></e>
-    <e><p><l>πρύτανης<s n="n"/><s n="f"/></l><r>rector<s n="n"/></r></p></e>
 
     <!-- SECTION: Verbs -->
     <e><p><l>αρέσω<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
@@ -677,7 +676,7 @@
     <e><p><l>ρωτώ<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
     <e><p><l>ψήνω<s n="vblex"/></l><r>bake<s n="vblex"/></r></p></e>
     <e><p><l>είμαι<s n="vblex"/></l><r>be<s n="vblex"/></r></p></e>
-    <e><p><l>γίνομαι<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>
+   <!-- <e><p><l>γίνομαι<s n="vblex"/></l><r>become<s n="vblex"/></r></p></e>-->
     <e><p><l>ξεκινώ<s n="vblex"/></l><r>begin<s n="vblex"/></r></p></e>
     <e><p><l>δαγκώνω<s n="vblex"/></l><r>bite<s n="vblex"/></r></p></e>
     <e><p><l>δανείζομαι<s n="vblex"/></l><r>borrow<s n="vblex"/></r></p></e>
@@ -2253,6 +2252,33 @@
     <e><p><l>δημιουργώ<s n="vblex"/></l><r>create<s n="vblex"/></r></p></e>
     <e><p><l>καθυστερώ<s n="vblex"/></l><r>delay<s n="vblex"/></r></p></e>
     <e><p><l>ξεκινώ<s n="vblex"/></l><r>start<s n="vblex"/></r></p></e>
+
+<!-- SECTION: vocabulary added during workshop, please check -->
+
+<e><p><l>ακαδημαϊκός<s n="adj"/></l><r>academic<s n="adj"/></r></p></e>
+<e><p><l>πανεπιστήμιο<s n="n"/><s n="nt"/></l><r>university<s n="n"/></r></p></e>
+<e><p><l>αίτημα<s n="n"/><s n="nt"/></l><r>request<s n="n"/></r></p></e>
+<e><p><l>έκτακτος<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
+<e><p><l>χρηματοδότηση<s n="n"/><s n="f"/></l><r>financing<s n="n"/></r></p></e>
+<e><p><l>ευρώ<s n="n"/><s n="nt"/></l><r>euro<s n="n"/></r></p></e>
+<e><p><l>σίτιση<s n="n"/><s n="f"/></l><r>feeding<s n="n"/></r></p></e>
+<e><p><l>παρόν<s n="n"/><s n="nt"/></l><r>present<s n="n"/></r></p></e>
+<e><p><l>συγκεκριμένου<s n="adj"/></l><r>specific<s n="adj"/></r></p></e>
+<e><p><l>οικονομικός<s n="adj"/></l><r>economic<s n="adj"/></r></p></e>
+<e><p><l>δυνατότητα<s n="n"/><s n="f"/></l><r>possibility<s n="n"/></r></p></e>
+<e><p><l>πίστωση<s n="n"/><s n="f"/></l><r>credit<s n="n"/></r></p></e>
+<e><p><l>σύνοδος<s n="n"/><s n="f"/></l><r>meeting<s n="n"/></r></p></e>
+<e><p><l>πρύτανης<s n="n"/><s n="f"/></l><r>rector<s n="n"/></r></p></e>
+<e r="LR"><p><l>βασικός<s n="adv"/></l><r>primarily<s n="adv"/></r></p></e>
+<e><p><l>βασικά<s n="adv"/></l><r>primarily<s n="adv"/></r></p></e> 
+<e><p><l>υπάρχω<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>  
+<e><p><l>αποφασίζω<s n="vblex"/></l><r>decided<s n="vblex"/></r></p></e>   
+<e><p><l>ανταποκρίνομαι<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
+<e><p><l>ενημερώνω<s n="vblex"/></l><r>inform<s n="vblex"/></r></p></e>
+<e><p><l>γίνομαι<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
+<e><p><l>συζητώ<s n="vblex"/></l><r>discuss<s n="vblex"/></r></p></e>
+    
+
 
 
   </section>
