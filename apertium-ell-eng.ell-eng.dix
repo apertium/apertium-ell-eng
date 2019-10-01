@@ -378,7 +378,7 @@
     <e><p><l>δικαίωμα<s n="n"/><s n="f"/></l><r>right<s n="n"/></r></p></e>
     <e><p><l>παροχή<s n="n"/><s n="f"/></l><r>supply<s n="n"/></r></p></e>
     <e><p><l>απόθεμα<s n="n"/><s n="f"/></l><r>shortage<s n="n"/></r></p></e>
-    <e><p><l>φώρτιση<s n="n"/><s n="f"/></l><r>charge<s n="n"/></r></p></e>
+    <e><p><l>φόρτιση<s n="n"/><s n="f"/></l><r>charge<s n="n"/></r></p></e>
     <e><p><l>τηλέφωνο<s n="n"/><s n="f"/></l><r>telephone<s n="n"/></r></p></e>
     <e><p><l>τεχνολογία<s n="n"/><s n="f"/></l><r>technology<s n="n"/></r></p></e>
     <e><p><l>μαθηματικά<s n="n"/><s n="f"/></l><r>maths<s n="n"/></r></p></e>
@@ -401,8 +401,8 @@
     <e><p><l>συνταγή<s n="n"/><s n="f"/></l><r>prescription<s n="n"/></r></p></e>
     <e><p><l>συνταγή<s n="n"/><s n="f"/></l><r>recipe<s n="n"/></r></p></e>
     <e><p><l>απαγωγή<s n="n"/><s n="f"/></l><r>kidnap<s n="n"/></r></p></e>
-    <e><p><l>δράστης<s n="n"/><s n="f"/></l><r>suspect<s n="n"/></r></p></e>
-    <e><p><l>κακοποιός<s n="n"/><s n="f"/></l><r>suspect<s n="n"/></r></p></e>
+    <e><p><l>δράστης<s n="n"/><s n="f"/></l><r>perpetrator<s n="n"/></r></p></e>
+    <e><p><l>κακοποιός<s n="n"/><s n="f"/></l><r>villain<s n="n"/></r></p></e>
     <e><p><l>ύποπτος<s n="n"/><s n="f"/></l><r>suspect<s n="n"/></r></p></e>
     <e><p><l>ληστεία<s n="n"/><s n="f"/></l><r>robbery<s n="n"/></r></p></e>
     <e><p><l>απόπειρα<s n="n"/><s n="f"/></l><r>attempt<s n="n"/></r></p></e>
@@ -489,16 +489,16 @@
     <e><p><l>ύπαρξη<s n="n"/><s n="f"/></l><r>existance<s n="n"/></r></p></e>
     <e><p><l>κόψιμο<s n="n"/><s n="f"/></l><r>cut<s n="n"/></r></p></e>
     <e><p><l>έμπλαστρο<s n="n"/><s n="f"/></l><r>patch<s n="n"/></r></p></e>
-    <e><p><l>επάρκεια<s n="n"/><s n="f"/></l><r>efficiency<s n="n"/></r></p></e>
+    <e><p><l>επάρκεια<s n="n"/><s n="f"/></l><r>adequacy<s n="n"/></r></p></e>
     <e><p><l>ακρίβεια<s n="n"/><s n="f"/></l><r>accuracy<s n="n"/></r></p></e>
     <e><p><l>ικανότητα<s n="n"/><s n="f"/></l><r>skill<s n="n"/></r></p></e>
     <e><p><l>ταχύτητα<s n="n"/><s n="f"/></l><r>speed<s n="n"/></r></p></e>
     <e><p><l>ταχύτητα<s n="n"/><s n="f"/></l><r>velocity<s n="n"/></r></p></e>
     <e><p><l>δύναμη<s n="n"/><s n="f"/></l><r>power<s n="n"/></r></p></e>
     <e><p><l>ηγεσία<s n="n"/><s n="f"/></l><r>leadership<s n="n"/></r></p></e>
-    <e><p><l>ηγεμονία<s n="n"/><s n="f"/></l><r>monachy<s n="n"/></r></p></e>
-    <e><p><l>μοναρχία<s n="n"/><s n="f"/></l><r>monachy<s n="n"/></r></p></e>
-    <e><p><l>ηγεμόνας<s n="n"/><s n="f"/></l><r>monach<s n="n"/></r></p></e>
+    <e><p><l>ηγεμονία<s n="n"/><s n="f"/></l><r>hegemony<s n="n"/></r></p></e>
+    <e><p><l>μοναρχία<s n="n"/><s n="f"/></l><r>monarchy<s n="n"/></r></p></e>
+    <e><p><l>ηγεμόνας<s n="n"/><s n="f"/></l><r>ruler<s n="n"/></r></p></e>
     <e><p><l>δημοκρατία<s n="n"/><s n="f"/></l><r>democracy<s n="n"/></r></p></e>
     <e><p><l>γραφειοκρατία<s n="n"/><s n="f"/></l><r>bureaucracy<s n="n"/></r></p></e>
     <e><p><l>φασισμός<s n="n"/><s n="f"/></l><r>fascism<s n="n"/></r></p></e>
@@ -912,7 +912,7 @@
     <e><p><l>Ηνωμένες Πολιτείες<s n="np"/><s n="top"/><s n="f"/></l><r>United States<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ουαλία<s n="np"/><s n="top"/><s n="f"/></l><r>Wales<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Υεμένη<s n="np"/><s n="top"/><s n="f"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Μακεδονία<s n="np"/><s n="top"/><s n="f"/></l><r>Yemen<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Μακεδονία<s n="np"/><s n="top"/><s n="f"/></l><r>North Macedonia<s n="np"/><s n="top"/></r></p></e>
 
 
     <!-- SECTION: Prepositions -->
@@ -1122,7 +1122,7 @@
 <e><p><l>άζωτο<s n="n"/><s n="nt"/></l><r>nitrogen<s n="n"/></r></p></e>
 <e><p><l>αηδία<s n="n"/><s n="f"/></l><r>disgust<s n="n"/></r></p></e>
 <e><p><l>αηδόνι<s n="n"/><s n="nt"/></l><r>common<b/>nightingale<s n="n"/></r></p></e>
-<e><p><l>αθεϊστής<s n="n"/><s n="m"/></l><r>atheism<s n="n"/></r></p></e>
+<e><p><l>αθεϊστής<s n="n"/><s n="m"/></l><r>atheist<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>άθεος<s n="n"/><s n="m"/></l><r>atheism<s n="n"/></r></p></e>
 <e><p><l>άθλημα<s n="n"/><s n="nt"/></l><r>sport<s n="n"/></r></p></e>
 <e><p><l>άθροισμα<s n="n"/><s n="nt"/></l><r>summation<s n="n"/></r></p></e>
@@ -1202,7 +1202,7 @@
 <e><p><l>αντισύλληψη<s n="n"/><s n="f"/></l><r>birth<b/>control<s n="n"/></r></p></e>
 <e><p><l>αντισφαίριση<s n="n"/><s n="f"/></l><r>tennis<s n="n"/></r></p></e>
 <e><p><l>άντρας<s n="n"/><s n="m"/></l><r>man<s n="n"/></r></p></e>
-<e><p><l>αξία<s n="n"/><s n="f"/></l><r>axia<s n="n"/></r></p></e>
+<e><p><l>αξία<s n="n"/><s n="f"/></l><r>value<s n="n"/></r></p></e>
 <e><p><l>αορτή<s n="n"/><s n="f"/></l><r>aorta<s n="n"/></r></p></e>
 <e><p><l>απαρέμφατο<s n="n"/><s n="nt"/></l><r>infinitive<s n="n"/></r></p></e>
 <e><p><l>απασχόληση<s n="n"/><s n="f"/></l><r>employment<s n="n"/></r></p></e>
@@ -1226,12 +1226,12 @@
 <e><p><l>αρουραίος<s n="n"/><s n="m"/></l><r>rat<s n="n"/></r></p></e>
 <e><p><l>άρπα<s n="n"/><s n="f"/></l><r>harp<s n="n"/></r></p></e>
 <e><p><l>άρτος<s n="n"/><s n="m"/></l><r>bread<s n="n"/></r></p></e>
-<e><p><l>αρχαιολόγος<s n="n"/><s n="m"/></l><r>archaeology<s n="n"/></r></p></e>
+<e><p><l>αρχαιολόγος<s n="n"/><s n="m"/></l><r>archaeologist<s n="n"/></r></p></e>
 <e><p><l>αρχείο<s n="n"/><s n="nt"/></l><r>archive<s n="n"/></r></p></e>
 <e><p><l>αρχηγείο<s n="n"/><s n="nt"/></l><r>headquarters<s n="n"/></r></p></e>
 <e><p><l>αρχιεπίσκοπος<s n="n"/><s n="m"/></l><r>archbishop<s n="n"/></r></p></e>
 <e><p><l>αρχιμανδρίτης<s n="n"/><s n="m"/></l><r>archimandrite<s n="n"/></r></p></e>
-<e><p><l>αρχιτέκτονας<s n="n"/><s n="m"/></l><r>architecture<s n="n"/></r></p></e>
+<e><p><l>αρχιτέκτονας<s n="n"/><s n="m"/></l><r>architect<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>αρχιτεκτονική<s n="n"/><s n="f"/></l><r>architecture<s n="n"/></r></p></e>
 <e><p><l>ασβεστόλιθος<s n="n"/><s n="m"/></l><r>limestone<s n="n"/></r></p></e>
 <e><p><l>ασβός<s n="n"/><s n="m"/></l><r>badger<s n="n"/></r></p></e>
