@@ -1622,7 +1622,7 @@
 <e><p><l>κηδεία<s n="n"/><s n="f"/></l><r>funeral<s n="n"/></r></p></e>
 <e><p><l>παιδεία<s n="n"/><s n="f"/></l><r>education<s n="n"/></r></p></e>
 <e><p><l>κιθάρα<s n="n"/><s n="f"/></l><r>guitar<s n="n"/></r></p></e>
-<e><p><l>κιθαρίστας<s n="n"/><s n="m"/></l><r>guitar<s n="n"/></r></p></e>
+<e><p><l>κιθαρίστας<s n="n"/><s n="m"/></l><r>guitarist<s n="n"/></r></p></e>
 <e><p><l>κιλό<s n="n"/><s n="nt"/></l><r>kilo<s n="n"/></r></p></e>
 <e><p><l>κίνημα<s n="n"/><s n="nt"/></l><r>coup<b/>d'état<s n="n"/></r></p></e>
 <e><p><l>κίνηση<s n="n"/><s n="f"/></l><r>motion<s n="n"/></r></p></e>
@@ -1855,7 +1855,8 @@
 <e><p><l>ουρανοξύστης<s n="n"/><s n="m"/></l><r>skyscraper<s n="n"/></r></p></e>
 <e><p><l>ουρανός<s n="n"/><s n="m"/></l><r>sky<s n="n"/></r></p></e>
 <e><p><l>ουρήθρα<s n="n"/><s n="f"/></l><r>urethra<s n="n"/></r></p></e>
-<e><p><l>ουσία<s n="n"/><s n="f"/></l><r>ousia<s n="n"/></r></p></e>
+<e><p><l>ουσία<s n="n"/><s n="f"/></l><r>matter<s n="n"/></r></p></e>
+<e><p><l>ουσία<s n="n"/><s n="f"/></l><r>essence<s n="n"/></r></p></e>
 <e><p><l>ουσιαστικό<s n="n"/><s n="nt"/></l><r>noun<s n="n"/></r></p></e>
 <e><p><l>οφθαλμός<s n="n"/><s n="m"/></l><r>eye<s n="n"/></r></p></e>
 <e><p><l>παγετώνας<s n="n"/><s n="m"/></l><r>glacier<s n="n"/></r></p></e>
@@ -1886,7 +1887,7 @@
 <e><p><l>παχυσαρκία<s n="n"/><s n="f"/></l><r>obesity<s n="n"/></r></p></e>
 <e><p><l>πείνα<s n="n"/><s n="f"/></l><r>hunger<b/>(motivational<b/>state)<s n="n"/></r></p></e>
 <e><p><l>πειρατεία<s n="n"/><s n="f"/></l><r>piracy<s n="n"/></r></p></e>
-<e><p><l>πειρατής<s n="n"/><s n="m"/></l><r>piracy<s n="n"/></r></p></e>
+<e><p><l>πειρατής<s n="n"/><s n="m"/></l><r>pirate<s n="n"/></r></p></e>
 <e><p><l>πελαργός<s n="n"/><s n="m"/></l><r>stork<s n="n"/></r></p></e>
 <e><p><l>πελεκάνος<s n="n"/><s n="m"/></l><r>pelican<s n="n"/></r></p></e>
 <e c="check gender"><p><l>πέμπτη<s n="n"/><s n="m"/></l><r>thursday<s n="n"/></r></p></e>
@@ -1967,7 +1968,7 @@
 <e><p><l>πυρίτιο<s n="n"/><s n="nt"/></l><r>silicon<s n="n"/></r></p></e>
 <e><p><l>πυροβολικό<s n="n"/><s n="nt"/></l><r>artillery<s n="n"/></r></p></e>
 <e><p><l>πυροβόλο<s n="n"/><s n="nt"/></l><r>firearm<s n="n"/></r></p></e>
-<e><p><l>πώληση<s n="n"/><s n="f"/></l><r>contract<b/>of<b/>sale<s n="n"/></r></p></e>
+<e><p><l>συμβόλαιο<s n="n"/><s n="f"/></l><r>contract<b/>of<b/>sale<s n="n"/></r></p></e>
 <e><p><l>ράδιο<s n="n"/><s n="nt"/></l><r>radium<s n="n"/></r></p></e>
 <e><p><l>ραδόνιο<s n="n"/><s n="nt"/></l><r>radon<s n="n"/></r></p></e>
 <e><p><l>ρεμπέτικο<s n="n"/><s n="nt"/></l><r>rebetiko<s n="n"/></r></p></e>
@@ -2014,17 +2015,17 @@
 <e><p><l>σκουλήκι<s n="n"/><s n="nt"/></l><r>worm<s n="n"/></r></p></e>
 <e><p><l>σκούπα<s n="n"/><s n="f"/></l><r>broom<s n="n"/></r></p></e>
 <e><p><l>σκύλος<s n="n"/><s n="m"/></l><r>dog<s n="n"/></r></p></e>
-<e><p><l>σλοβάκικα<s n="n"/><s n="nt"/></l><r>slovak<s n="n"/></r></p></e>
+<e><p><l>σλοβάκικα<s n="n"/><s n="nt"/></l><r>Slovak<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>σλοβακικά<s n="n"/><s n="nt"/></l><r>slovak<s n="n"/></r></p></e>
 <e><p><l>σλοβένικα<s n="n"/><s n="nt"/></l><r>slovene<s n="n"/></r></p></e>
-<e c="check" r="LR"><p><l>σλοβενικά<s n="n"/><s n="nt"/></l><r>slovene<s n="n"/></r></p></e>
+<e c="check" r="LR"><p><l>σλοβενικά<s n="n"/><s n="nt"/></l><r>Slovene<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>σμέουρο<s n="n"/><s n="nt"/></l><r>rubus<b/>idaeus<s n="n"/></r></p></e>
 <e><p><l>σόγια<s n="n"/><s n="nt"/></l><r>soybean<s n="n"/></r></p></e>
 <e><p><l>σοδομία<s n="n"/><s n="f"/></l><r>sodomy<s n="n"/></r></p></e>
 <e><p><l>σονέτο<s n="n"/><s n="nt"/></l><r>sonnet<s n="n"/></r></p></e>
 <e><p><l>σόργο<s n="n"/><s n="nt"/></l><r>sorghum<s n="n"/></r></p></e>
 <e><p><l>σουβλάκι<s n="n"/><s n="nt"/></l><r>souvlaki<s n="n"/></r></p></e>
-<e><p><l>σουηδικά<s n="n"/><s n="nt"/></l><r>swedish<s n="n"/></r></p></e>
+<e><p><l>σουηδικά<s n="n"/><s n="nt"/></l><r>Swedish<s n="n"/></r></p></e>
 <e><p><l>σουλτάνος<s n="n"/><s n="m"/></l><r>sultan<s n="n"/></r></p></e>
 <e><p><l>σούπα<s n="n"/><s n="f"/></l><r>soup<s n="n"/></r></p></e>
 <e><p><l>σπανάκι<s n="n"/><s n="nt"/></l><r>spinach<s n="n"/></r></p></e>
@@ -2038,7 +2039,7 @@
 <e><p><l>σταφύλι<s n="n"/><s n="nt"/></l><r>grape<s n="n"/></r></p></e>
 <e><p><l>στηθόδεσμος<s n="n"/><s n="m"/></l><r>bra<s n="n"/></r></p></e>
 <e><p><l>στοιχείο<s n="n"/><s n="nt"/></l><r>element<s n="n"/></r></p></e>
-<e><p><l>στόλος<s n="n"/><s n="m"/></l><r>naval<b/>fleet<s n="n"/></r></p></e>
+<e><p><l>ναυτικός<s n="n"/><s n="m"/></l><r>naval<b/>fleet<s n="n"/></r></p></e>
 <e><p><l>στομάχι<s n="n"/><s n="nt"/></l><r>stomach<s n="n"/></r></p></e>
 <e><p><l>στρατοδικείο<s n="n"/><s n="nt"/></l><r>court-martial<s n="n"/></r></p></e>
 <e><p><l>στρέμμα<s n="n"/><s n="nt"/></l><r>stremma<s n="n"/></r></p></e>
@@ -2136,8 +2137,8 @@
 <e><p><l>φέρμιο<s n="n"/><s n="nt"/></l><r>fermium<s n="n"/></r></p></e>
 <e><p><l>φθόριο<s n="n"/><s n="nt"/></l><r>fluorine<s n="n"/></r></p></e>
 <e><p><l>φίδι<s n="n"/><s n="nt"/></l><r>snake<s n="n"/></r></p></e>
-<e><p><l>φιλανδικά<s n="n"/><s n="nt"/></l><r>finnish<s n="n"/></r></p></e>
-<e><p><l>φιλόσοφος<s n="n"/><s n="m"/></l><r>philosophy<s n="n"/></r></p></e>
+<e><p><l>Φινλανδικά<s n="n"/><s n="nt"/></l><r>Finnish<s n="n"/></r></p></e>
+<e><p><l>φιλόσοφος<s n="n"/><s n="m"/></l><r>philosopher<s n="n"/></r></p></e>
 <e><p><l>φίλτρο<s n="n"/><s n="nt"/></l><r>filter<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>φινλανδικά<s n="n"/><s n="nt"/></l><r>finnish<s n="n"/></r></p></e>
 <e><p><l>φλάουτο<s n="n"/><s n="nt"/></l><r>flute<s n="n"/></r></p></e>
@@ -2149,7 +2150,6 @@
 <e><p><l>φουντουκιά<s n="n"/><s n="f"/></l><r>hazel<s n="n"/></r></p></e>
 <e><p><l>φούρνος<s n="n"/><s n="m"/></l><r>oven<s n="n"/></r></p></e>
 <e><p><l>φράγκο<s n="n"/><s n="nt"/></l><r>franc<s n="n"/></r></p></e>
-<e><p><l>φράουλα<s n="n"/><s n="f"/></l><r>fragaria<s n="n"/></r></p></e>
 <e><p><l>φτυάρι<s n="n"/><s n="nt"/></l><r>spade<s n="n"/></r></p></e>
 <e><p><l>φυλαχτό<s n="n"/><s n="nt"/></l><r>amulet<s n="n"/></r></p></e>
 <e><p><l>φύλλο<s n="n"/><s n="nt"/></l><r>leaf<s n="n"/></r></p></e>
@@ -2160,8 +2160,9 @@
 <e><p><l>φώνημα<s n="n"/><s n="nt"/></l><r>phoneme<s n="n"/></r></p></e>
 <e><p><l>φως<s n="n"/><s n="nt"/></l><r>light<s n="n"/></r></p></e>
 <e><p><l>φωτιά<s n="n"/><s n="f"/></l><r>fire<s n="n"/></r></p></e>
-<e><p><l>φωτογράφος<s n="n"/><s n="m"/></l><r>photography<s n="n"/></r></p></e>
+<e><p><l>φωτογράφος<s n="n"/><s n="m"/></l><r>photographer<s n="n"/></r></p></e>
 <e><p><l>χαλάζι<s n="n"/><s n="nt"/></l><r>hail<s n="n"/></r></p></e>
+<e><p><l>χαμοκέρασο<s n="n"/><s n="f"/></l><r>fragaria<s n="n"/></r></p></e>
 <e><p><l>χάος<s n="n"/><s n="nt"/></l><r>chaos<s n="n"/></r></p></e>
 <e><p><l>χάρακας<s n="n"/><s n="m"/></l><r>ruler<s n="n"/></r></p></e>
 <e><p><l>χαρταετός<s n="n"/><s n="m"/></l><r>kite<s n="n"/></r></p></e>
@@ -2177,7 +2178,8 @@
 <e><p><l>χιμπαντζής<s n="n"/><s n="m"/></l><r>chimpanzee<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>χιμπατζής<s n="n"/><s n="m"/></l><r>chimpanzee<s n="n"/></r></p></e>
 <e><p><l>χιονοστιβάδα<s n="n"/><s n="f"/></l><r>avalanche<s n="n"/></r></p></e>
-<e><p><l>χορηγός<s n="n"/><s n="m"/></l><r>choregos<s n="n"/></r></p></e>
+<e><p><l>χορηγός<s n="n"/><s n="m"/></l><r>sponsor<s n="n"/></r></p></e>
+<e><p><l>χορηγός<s n="n"/><s n="m"/></l><r>provider<s n="n"/></r></p></e>
 <e><p><l>χορτοφάγος<s n="n"/><s n="m"/></l><r>vegetarianism<s n="n"/></r></p></e>
 <e><p><l>χρόνος<s n="n"/><s n="m"/></l><r>time<s n="n"/></r></p></e>
 <e><p><l>χρώμα<s n="n"/><s n="nt"/></l><r>color<s n="n"/></r></p></e>
@@ -2231,7 +2233,8 @@
     <e><p><l>εκφεύγω<s n="vblex"/></l><r>baffle<s n="vblex"/></r></p></e>
     <e><p><l>χαρίζω<s n="vblex"/></l><r>donate<s n="vblex"/></r></p></e>
     <e><p><l>επαναδιαμορφώνω<s n="vblex"/></l><r>reconfigure<s n="vblex"/></r></p></e>
-    <e><p><l>διαμορφώνω<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
+    <e><p><l>ρυθμός<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
+    <e><p><l>παλμός<s n="vblex"/></l><r>beat<s n="vblex"/></r></p></e>
     <e><p><l>αναδιαμορφώνω<s n="vblex"/></l><r>remodel<s n="vblex"/></r></p></e> 
     <e><p><l>συνδιαμορφώνω<s n="vblex"/></l><r>shape<s n="vblex"/></r></p></e> 
     <e><p><l>ξανακοιτάζω<s n="vblex"/></l><r>look through<s n="vblex"/></r></p></e>   
@@ -2259,6 +2262,9 @@
 <e><p><l>πανεπιστήμιο<s n="n"/><s n="nt"/></l><r>university<s n="n"/></r></p></e>
 <e><p><l>αίτημα<s n="n"/><s n="nt"/></l><r>request<s n="n"/></r></p></e>
 <e><p><l>έκτακτος<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
+<e><p><l>ειδικός<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
+<e><p><l>ξεχωριστός<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
+<e><p><l>ιδιαίτερος<s n="adj"/></l><r>special<s n="adj"/></r></p></e>
 <e><p><l>χρηματοδότηση<s n="n"/><s n="f"/></l><r>financing<s n="n"/></r></p></e>
 <e><p><l>ευρώ<s n="n"/><s n="nt"/></l><r>euro<s n="n"/></r></p></e>
 <e><p><l>σίτιση<s n="n"/><s n="f"/></l><r>feeding<s n="n"/></r></p></e>
@@ -2275,7 +2281,7 @@
 <e><p><l>αποφασίζω<s n="vblex"/></l><r>decided<s n="vblex"/></r></p></e>   
 <e><p><l>ανταποκρίνομαι<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
 <e><p><l>ενημερώνω<s n="vblex"/></l><r>inform<s n="vblex"/></r></p></e>
-<e><p><l>γίνομαι<s n="vblex"/></l><r>be<s n="vbser"/></r></p></e>
+<e><p><l>γίνομαι<s n="vblex"/></l><r>become<s n="vbser"/></r></p></e>
 <e><p><l>συζητώ<s n="vblex"/></l><r>discuss<s n="vblex"/></r></p></e>
     
 
