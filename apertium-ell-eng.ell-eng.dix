@@ -269,7 +269,8 @@
     <e><p><l>σήμα<s n="n"/><s n="nt"/></l><r>sign<s n="n"/></r></p></e>
     <e><p><l>σήμα<s n="n"/><s n="nt"/></l><r>trademark<s n="n"/></r></p></e>
     <e><p><l>χρήμα<s n="n"/><s n="f"/></l><r>money<s n="n"/></r></p></e>
-    <e><p><l>χρήμα<s n="n"/><s n="f"/></l><r>cash<s n="n"/></r></p></e>
+    <e><p><l>ρευστό<b/>χρήμα<s n="n"/><s n="f"/></l><r>cash<s n="n"/></r></p></e>
+    <e><p><l>μετρητά<s n="n"/><s n="f"/></l><r>cash<s n="n"/></r></p></e>
     <e><p><l>φωτογραφία<s n="n"/><s n="f"/></l><r>photograph<s n="n"/></r></p></e>
     <e><p><l>φωτογραφία<s n="n"/><s n="f"/></l><r>photo<s n="n"/></r></p></e>
     <e><p><l>φωτογραφία<s n="n"/><s n="f"/></l><r>picture<s n="n"/></r></p></e>
@@ -305,10 +306,10 @@
     <e><p><l>διαδίκτυο<s n="n"/><s n="f"/></l><r>internet<s n="n"/></r></p></e>
     <e><p><l>διαδίκτυο<s n="n"/><s n="f"/></l><r>web<s n="n"/></r></p></e>
     <e><p><l>ιστολόγιο<s n="n"/><s n="f"/></l><r>blog<s n="n"/></r></p></e>
-    <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
+    <e><p><l>διαδυκτιακός</b>τόπος<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
     <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>webpage<s n="n"/></r></p></e>
     <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>homepage<s n="n"/></r></p></e>
-    <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>home page<s n="n"/></r></p></e>
+    <e><p><l>αρχική</b>σελίδα<s n="n"/><s n="f"/></l><r>home page<s n="n"/></r></p></e>
     <e><p><l>υπηρεσία<s n="n"/><s n="f"/></l><r>service<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>monitor<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>screen<s n="n"/></r></p></e>
@@ -320,7 +321,7 @@
     <e><p><l>κατάλογος<s n="n"/><s n="f"/></l><r>directory<s n="n"/></r></p></e>
     <e><p><l>μονοπάτι<s n="n"/><s n="f"/></l><r>path<s n="n"/></r></p></e>
     <e><p><l>διαδρομή<s n="n"/><s n="f"/></l><r>path<s n="n"/></r></p></e>
-    <e><p><l>γνώμη<s n="n"/><s n="f"/></l><r>belief<s n="n"/></r></p></e>
+    <e><p><l>πίστη<s n="n"/><s n="f"/></l><r>belief<s n="n"/></r></p></e>
 
     <e><p><l>θήκη<s n="n"/><s n="f"/></l><r>case<s n="n"/></r></p></e>
     <e><p><l>υπόθεση<s n="n"/><s n="f"/></l><r>case<s n="n"/></r></p></e>
@@ -374,7 +375,9 @@
     <e><p><l>τείχος<s n="n"/><s n="f"/></l><r>fortification<s n="n"/></r></p></e>
     <e><p><l>κάστρο<s n="n"/><s n="f"/></l><r>castle<s n="n"/></r></p></e>
     <e><p><l>μάχη<s n="n"/><s n="f"/></l><r>battle<s n="n"/></r></p></e>
-    <e><p><l>φιλονικία<s n="n"/><s n="f"/></l><r>argument<s n="n"/></r></p></e>
+    <e><p><l>διαφωνία<s n="n"/><s n="f"/></l><r>argument<s n="n"/></r></p></e>
+    <e><p><l>επιχείρημα<s n="n"/><s n="f"/></l><r>argument<s n="n"/></r></p></e>
+    <e><p><l>συζήτηση<s n="n"/><s n="f"/></l><r>argument<s n="n"/></r></p></e>
     <e><p><l>δικαίωμα<s n="n"/><s n="f"/></l><r>right<s n="n"/></r></p></e>
     <e><p><l>παροχή<s n="n"/><s n="f"/></l><r>supply<s n="n"/></r></p></e>
     <e><p><l>απόθεμα<s n="n"/><s n="f"/></l><r>shortage<s n="n"/></r></p></e>
@@ -395,6 +398,7 @@
     <e><p><l>νίκη<s n="n"/><s n="f"/></l><r>victory<s n="n"/></r></p></e>
     <e><p><l>νίκη<s n="n"/><s n="f"/></l><r>win<s n="n"/></r></p></e>
     <e><p><l>απώλεια<s n="n"/><s n="f"/></l><r>loss<s n="n"/></r></p></e>
+    <e><p><l>ζημιά<s n="n"/><s n="f"/></l><r>loss<s n="n"/></r></p></e>
     <e><p><l>επιτυχία<s n="n"/><s n="f"/></l><r>success<s n="n"/></r></p></e>
     <e><p><l>ιατρική<s n="n"/><s n="f"/></l><r>medicine<s n="n"/></r></p></e>
     <e><p><l>αποβολή<s n="n"/><s n="f"/></l><r>expell<s n="n"/></r></p></e>
@@ -484,6 +488,7 @@
     <e><p><l>κέικ<s n="n"/><s n="f"/></l><r>cake<s n="n"/></r></p></e>
     <e><p><l>κουζίνα<s n="n"/><s n="f"/></l><r>kitchen<s n="n"/></r></p></e>
     <e><p><l>ψυγείο<s n="n"/><s n="f"/></l><r>fridge<s n="n"/></r></p></e>
+    <e><p><l>ψυγείο<s n="n"/><s n="f"/></l><r>refrigerator<s n="n"/></r></p></e>
     <e><p><l>φούρνος<b/>μικροκυμάτων<s n="n"/><s n="f"/></l><r>microwave<s n="n"/></r></p></e>
     <e><p><l>καταφύγιο<s n="n"/><s n="f"/></l><r>shelter<s n="n"/></r></p></e>
     <e><p><l>ύπαρξη<s n="n"/><s n="f"/></l><r>existance<s n="n"/></r></p></e>
@@ -498,6 +503,7 @@
     <e><p><l>ηγεσία<s n="n"/><s n="f"/></l><r>leadership<s n="n"/></r></p></e>
     <e><p><l>ηγεμονία<s n="n"/><s n="f"/></l><r>hegemony<s n="n"/></r></p></e>
     <e><p><l>μοναρχία<s n="n"/><s n="f"/></l><r>monarchy<s n="n"/></r></p></e>
+    <e><p><l>μονάρχης<s n="n"/><s n="f"/></l><r>monarch<s n="n"/></r></p></e>
     <e><p><l>ηγεμόνας<s n="n"/><s n="f"/></l><r>ruler<s n="n"/></r></p></e>
     <e><p><l>δημοκρατία<s n="n"/><s n="f"/></l><r>democracy<s n="n"/></r></p></e>
     <e><p><l>γραφειοκρατία<s n="n"/><s n="f"/></l><r>bureaucracy<s n="n"/></r></p></e>
@@ -564,7 +570,6 @@
     <e><p><l>μανταρίνι<s n="n"/><s n="f"/></l><r>mandarin<s n="n"/></r></p></e>
     <e><p><l>καρδιά<s n="n"/><s n="f"/></l><r>heart<s n="n"/></r></p></e>
     <e><p><l>συκώτι<s n="n"/><s n="f"/></l><r>liver<s n="n"/></r></p></e>
-    <e><p><l>πάγκρεας<s n="n"/><s n="f"/></l><r>liver<s n="n"/></r></p></e>
     <e><p><l>εγκέφαλος<s n="n"/><s n="f"/></l><r>brain<s n="n"/></r></p></e>
     <e><p><l>μάτι<s n="n"/><s n="f"/></l><r>eye<s n="n"/></r></p></e>
     <e><p><l>στόμα<s n="n"/><s n="f"/></l><r>mouth<s n="n"/></r></p></e>
@@ -574,10 +579,11 @@
     <e><p><l>ώμος<s n="n"/><s n="f"/></l><r>shoulder<s n="n"/></r></p></e>
     <e><p><l>παλάμη<s n="n"/><s n="f"/></l><r>palm<s n="n"/></r></p></e>
     <e><p><l>πόδι<s n="n"/><s n="f"/></l><r>leg<s n="n"/></r></p></e>
-    <e><p><l>πατούσα<s n="n"/><s n="f"/></l><r>foot<s n="n"/></r></p></e>
+    <e><p><l>πόδι<s n="n"/><s n="f"/></l><r>foot<s n="n"/></r></p></e>
+    <e><p><l>πρόποδες<s n="n"/><s n="f"/></l><r>foot<s n="n"/></r></p></e>
+    <e><p><l>βάση<s n="n"/><s n="f"/></l><r>foot<s n="n"/></r></p></e>
     <e><p><l>γόνατο<s n="n"/><s n="f"/></l><r>knee<s n="n"/></r></p></e>
     <e><p><l>κεφάλι<s n="n"/><s n="f"/></l><r>head<s n="n"/></r></p></e>
-
     <e><p><l>διακομιστής<s n="n"/><s n="f"/></l><r>host<s n="n"/></r></p></e>
     <e><p><l>εξυπηρετητής<s n="n"/><s n="f"/></l><r>server<s n="n"/></r></p></e>
     <e><p><l>δίκτυο<s n="n"/><s n="f"/></l><r>network<s n="n"/></r></p></e>
@@ -626,6 +632,8 @@
 
     <!-- SECTION: Family -->
     <e><p><l>πατέρας<s n="n"/><s n="f"/></l><r>father<s n="n"/></r></p></e>
+    <e><p><l>πατέρας<s n="n"/><s n="f"/></l><r>dad<s n="n"/></r></p></e>
+    <e><p><l>μητέρα<s n="n"/><s n="f"/></l><r>mom<s n="n"/></r></p></e>
     <e><p><l>μητέρα<s n="n"/><s n="f"/></l><r>mother<s n="n"/></r></p></e>
     <e><p><l>αδερφός<s n="n"/><s n="f"/></l><r>brother<s n="n"/></r></p></e>
     <e><p><l>αδερφή<s n="n"/><s n="f"/></l><r>sister<s n="n"/></r></p></e>
@@ -1410,7 +1418,7 @@
 <e><p><l>δύσπνοια<s n="n"/><s n="f"/></l><r>dyspnea<s n="n"/></r></p></e>
 <e><p><l>δυσπρόσιο<s n="n"/><s n="nt"/></l><r>dysprosium<s n="n"/></r></p></e>
 <e><p><l>εβδομάδα<s n="n"/><s n="f"/></l><r>week<s n="n"/></r></p></e>
-<e c="check gender"><p><l>εβραίος<s n="n"/><s n="m"/></l><r>jews<s n="n"/></r></p></e>
+<e c="check gender"><p><l>εβραίος<s n="n"/><s n="m"/></l><r>jew<s n="n"/></r></p></e>
 <e><p><l>εγκέφαλος<s n="n"/><s n="m"/></l><r>brain<s n="n"/></r></p></e>
 <e><p><l>εγκυκλοπαίδεια<s n="n"/><s n="f"/></l><r>encyclopedia<s n="n"/></r></p></e>
 <e><p><l>εγχειρίδιο<s n="n"/><s n="nt"/></l><r>handbook<s n="n"/></r></p></e>
@@ -1436,7 +1444,7 @@
 <e><p><l>ελέφαντας<s n="n"/><s n="m"/></l><r>elephant<s n="n"/></r></p></e>
 <e><p><l>ελιά<s n="n"/><s n="f"/></l><r>olive<s n="n"/></r></p></e>
 <e><p><l>ελικόπτερο<s n="n"/><s n="nt"/></l><r>helicopter<s n="n"/></r></p></e>
-<e c="check gender"><p><l>έλληνας<s n="n"/><s n="m"/></l><r>greeks<s n="n"/></r></p></e>
+<e c="check gender"><p><l>έλληνας<s n="n"/><s n="m"/></l><r>greek<s n="n"/></r></p></e>
 <e><p><l>ελληνικά<s n="n"/><s n="nt"/></l><r>language<s n="n"/></r></p></e>
 <e><p><l>ελονοσία<s n="n"/><s n="f"/></l><r>malaria<s n="n"/></r></p></e>
 <e><p><l>ελπίδα<s n="n"/><s n="f"/></l><r>hope<s n="n"/></r></p></e>
@@ -1490,8 +1498,9 @@
 <e><p><l>ευλογιά<s n="n"/><s n="f"/></l><r>smallpox<s n="n"/></r></p></e>
 <e><p><l>ευρώπιο<s n="n"/><s n="nt"/></l><r>europium<s n="n"/></r></p></e>
 <e><p><l>έφεση<s n="n"/><s n="f"/></l><r>appeal<s n="n"/></r></p></e>
+<e><p><l>έκκληση<s n="n"/><s n="f"/></l><r>appeal<s n="n"/></r></p></e>
 <e><p><l>εφηβεία<s n="n"/><s n="f"/></l><r>adolescence<s n="n"/></r></p></e>
-<e c="check" r="LR"><p><l>έφηβος<s n="n"/><s n="m"/></l><r>adolescence<s n="n"/></r></p></e>
+<e c="check" r="LR"><p><l>εφηβική</b>ηλικία<s n="n"/><s n="m"/></l><r>adolescence<s n="n"/></r></p></e>
 <e><p><l>εφημερίδα<s n="n"/><s n="f"/></l><r>newspaper<s n="n"/></r></p></e>
 <e><p><l>ζαφείρι<s n="n"/><s n="nt"/></l><r>sapphire<s n="n"/></r></p></e>
 <e><p><l>ζαφορά<s n="n"/><s n="f"/></l><r>crocus<s n="n"/></r></p></e>
@@ -1543,7 +1552,7 @@
 <e><p><l>θρυπτοφάνη<s n="n"/><s n="f"/></l><r>tryptophan<s n="n"/></r></p></e>
 <e><p><l>θυμάρι<s n="n"/><s n="nt"/></l><r>thymus<s n="n"/></r></p></e>
 <e><p><l>θυσία<s n="n"/><s n="f"/></l><r>sacrifice<s n="n"/></r></p></e>
-<e c="check gender"><p><l>ιάπωνας<s n="n"/><s n="m"/></l><r>japan<s n="n"/></r></p></e>
+<e c="check gender"><p><l>ιάπωνας<s n="n"/><s n="m"/></l><r>japanese<s n="n"/></r></p></e>
 <e><p><l>ιατρός<s n="n"/><s n="m"/></l><r>medicine<s n="n"/></r></p></e>
 <e><p><l>ιδέα<s n="n"/><s n="f"/></l><r>idea<s n="n"/></r></p></e>
 <e><p><l>ιδεολογία<s n="n"/><s n="f"/></l><r>ideology<s n="n"/></r></p></e>
@@ -1622,9 +1631,9 @@
 <e><p><l>κηδεία<s n="n"/><s n="f"/></l><r>funeral<s n="n"/></r></p></e>
 <e><p><l>παιδεία<s n="n"/><s n="f"/></l><r>education<s n="n"/></r></p></e>
 <e><p><l>κιθάρα<s n="n"/><s n="f"/></l><r>guitar<s n="n"/></r></p></e>
-<e><p><l>κιθαρίστας<s n="n"/><s n="m"/></l><r>guitar<s n="n"/></r></p></e>
+<e><p><l>κιθαρίστας<s n="n"/><s n="m"/></l><r>guitarist<s n="n"/></r></p></e>
 <e><p><l>κιλό<s n="n"/><s n="nt"/></l><r>kilo<s n="n"/></r></p></e>
-<e><p><l>κίνημα<s n="n"/><s n="nt"/></l><r>coup<b/>d'état<s n="n"/></r></p></e>
+<e><p><l>πραξικόπημα<s n="n"/><s n="nt"/></l><r>coup<b/>d'état<s n="n"/></r></p></e>
 <e><p><l>κίνηση<s n="n"/><s n="f"/></l><r>motion<s n="n"/></r></p></e>
 <e c="check" r="LR"><p><l>κιονόκρανο<s n="n"/><s n="nt"/></l><r>capital<s n="n"/></r></p></e>
 <e><p><l>κιούριο<s n="n"/><s n="nt"/></l><r>curium<s n="n"/></r></p></e>
@@ -1710,7 +1719,6 @@
 <e><p><l>μάζα<s n="n"/><s n="f"/></l><r>mass<s n="n"/></r></p></e>
 <e><p><l>μαθηματικά<s n="n"/><s n="nt"/></l><r>mathematics<s n="n"/></r></p></e>
 <e><p><l>μάθηση<s n="n"/><s n="f"/></l><r>learning<s n="n"/></r></p></e>
-<e><p><l>μαία<s n="n"/><s n="f"/></l><r>maya<s n="n"/></r></p></e>
 <e><p><l>μαϊντανός<s n="n"/><s n="nt"/></l><r>parsley<s n="n"/></r></p></e>
 <e><p><l>μαλάκας<s n="n"/><s n="m"/></l><r>malakas<s n="n"/></r></p></e>
 <e><p><l>μαλακία<s n="n"/><s n="f"/></l><r>masturbation<s n="n"/></r></p></e>
@@ -1723,7 +1731,7 @@
 <e c="check" r="LR"><p><l>μανταρινιά<s n="n"/><s n="f"/></l><r>mandarin<b/>orange<s n="n"/></r></p></e>
 <e><p><l>μαργαρίνη<s n="n"/><s n="f"/></l><r>margarine<s n="n"/></r></p></e>
 <e><p><l>μαργαριτάρι<s n="n"/><s n="nt"/></l><r>pearl<s n="n"/></r></p></e>
-<e><p><l>μαριχουάνα<s n="n"/><s n="f"/></l><r>cannabis<s n="n"/></r></p></e>
+<e><p><l>κάνναβη<s n="n"/><s n="f"/></l><r>cannabis<s n="n"/></r></p></e>
 <e><p><l>μαρούλι<s n="n"/><s n="nt"/></l><r>lettuce<s n="n"/></r></p></e>
 <e><p><l>μαστός<s n="n"/><s n="m"/></l><r>breast<s n="n"/></r></p></e>
 <e><p><l>μάτι<s n="n"/><s n="nt"/></l><r>eye<s n="n"/></r></p></e>
@@ -1735,7 +1743,7 @@
 <e><p><l>μελανίνη<s n="n"/><s n="f"/></l><r>melanin<s n="n"/></r></p></e>
 <e><p><l>μέλι<s n="n"/><s n="nt"/></l><r>honey<s n="n"/></r></p></e>
 <e><p><l>μέλισσα<s n="n"/><s n="f"/></l><r>bee<s n="n"/></r></p></e>
-<e><p><l>μελισσοκόμος<s n="n"/><s n="m"/></l><r>beekeeping<s n="n"/></r></p></e>
+<e><p><l>μελισσοκόμος<s n="n"/><s n="m"/></l><r>beekeeper<s n="n"/></r></p></e>
 <e><p><l>μελιτζάνα<s n="n"/><s n="f"/></l><r>eggplant<s n="n"/></r></p></e>
 <e><p><l>μελωδία<s n="n"/><s n="f"/></l><r>melody<s n="n"/></r></p></e>
 <e><p><l>μεμβράνη<s n="n"/><s n="f"/></l><r>membrane<s n="n"/></r></p></e>
@@ -1760,7 +1768,7 @@
 <e><p><l>μήλο<s n="n"/><s n="nt"/></l><r>apple<s n="n"/></r></p></e>
 <e><p><l>μήνας<s n="n"/><s n="m"/></l><r>month<s n="n"/></r></p></e>
 <e><p><l>μηχανή<s n="n"/><s n="f"/></l><r>machine<s n="n"/></r></p></e>
-<e><p><l>μικρόβιο<s n="n"/><s n="nt"/></l><r>microorganism<s n="n"/></r></p></e>
+<e><p><l>μικροοργανισμός<s n="n"/><s n="nt"/></l><r>microorganism<s n="n"/></r></p></e>
 <e><p><l>μικροβιολογία<s n="n"/><s n="f"/></l><r>microbiology<s n="n"/></r></p></e>
 <e><p><l>μινουέτο<s n="n"/><s n="nt"/></l><r>minuet<s n="n"/></r></p></e>
 <e><p><l>μίσος<s n="n"/><s n="nt"/></l><r>hatred<s n="n"/></r></p></e>
