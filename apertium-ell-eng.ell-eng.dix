@@ -605,8 +605,10 @@
     <e><p><l>φυλλομετρητής<s n="n"/><s n="f"/></l><r>browser<s n="n"/></r></p></e>
     <e><p><l>προβολή<s n="n"/><s n="f"/></l><r>view<s n="n"/></r></p></e>
     <e><p><l>πίνακας<s n="n"/><s n="f"/></l><r>table<s n="n"/></r></p></e>
+    <e><p><l>πίνακας<s n="n"/><s n="f"/></l><r>board<s n="n"/></r></p></e>
     <e><p><l>δίαυλος<s n="n"/><s n="f"/></l><r>bus<s n="n"/></r></p></e>
     <e><p><l>μονάδα<s n="n"/><s n="f"/></l><r>tower<s n="n"/></r></p></e>
+    <e><p><l>μονάδα<s n="n"/><s n="f"/></l><r>unit<s n="n"/></r></p></e>
     <e><p><l>ηχείο<s n="n"/><s n="f"/></l><r>speaker<s n="n"/></r></p></e>
     <e><p><l>ακουστικό<s n="n"/><s n="f"/></l><r>headphone<s n="n"/></r></p></e>
     <e><p><l>ακουστικό<s n="n"/><s n="f"/></l><r>earphone<s n="n"/></r></p></e>
@@ -700,7 +702,7 @@
     <e><p><l>νιώθω<s n="vblex"/></l><r>feel<s n="vblex"/></r></p></e>
     <e><p><l>βρίσκω<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
     <e><p><l>πετώ<s n="vblex"/></l><r>fly<s n="vblex"/></r></p></e>
-    <e><p><l>πέρνω<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+    <e><p><l>παίρνω<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
     <e><p><l>πηγαίνω<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
     <e><p><l>μισώ<s n="vblex"/></l><r>hate<s n="vblex"/></r></p></e>
     <e><p><l>έχω<s n="vblex"/></l><r>have<s n="vblex"/></r></p></e>
@@ -731,6 +733,7 @@
     <e><p><l>αφαιρώ<s n="vblex"/></l><r>remove<s n="vblex"/></r></p></e>
     <e><p><l>αναφέρω<s n="vblex"/></l><r>report<s n="vblex"/></r></p></e>
     <e><p><l>εκτιμώ<s n="vblex"/></l><r>respect<s n="vblex"/></r></p></e>
+    <e><p><l>σέβομαι<s n="vblex"/></l><r>respect<s n="vblex"/></r></p></e>
     <e><p><l>λέω<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
     <e><p><l>βλέπω<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
     <e><p><l>μιλώ<s n="vblex"/></l><r>speak<s n="vblex"/></r></p></e>
@@ -744,6 +747,7 @@
     <e><p><l>τρέχω<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
     <e><p><l>περπατώ<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
     <e><p><l>ακούω<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+    <e><p><l>ακούω<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
     <e><p><l>δημόσιος<s n="adj"/></l><r>public<s n="adj"/></r></p></e>
@@ -773,6 +777,7 @@
     <e><p><l>ταχύς<s n="adj"/></l><r>rapid<s n="adj"/></r></p></e>
     <e><p><l>ταχύς<s n="adj"/></l><r>fast<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>ταχύς<s n="adj"/></l><r>express<s n="adj"/></r></p></e>
+    <e><p><l>ταχύς<s n="adj"/></l><r>quick<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>διοικητικός<s n="adj"/></l><r>administrative<s n="adj"/></r></p></e>
     <e><p><l>διοικητικός<s n="adj"/></l><r>managerial<s n="adj"/></r></p></e>
     <e><p><l>φιλικός<s n="adj"/></l><r>friendly<s n="adj"/><s n="sint"/></r></p></e>
@@ -804,6 +809,7 @@
 
 	<e><p><l>ζεστός<s n="adj"/></l><r>warm<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>καλός<s n="adj"/></l><r>nice<s n="adj"/><s n="sint"/></r></p></e>
+        
 	<e><p><l>κρύος<s n="adj"/></l><r>cold<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>μεγάλος<s n="adj"/></l><r>big<s n="adj"/><s n="sint"/></r></p></e>
 	<e><p><l>μικρός<s n="adj"/></l><r>little<s n="adj"/></r></p></e>
@@ -1594,7 +1600,7 @@
 <e><p><l>καλαμάρι<s n="n"/><s n="nt"/></l><r>squid<s n="n"/></r></p></e>
 <e><p><l>καλλιτέχνης<s n="n"/><s n="m"/></l><r>art<s n="n"/></r></p></e>
 <e><p><l>καλοκαίρι<s n="n"/><s n="nt"/></l><r>summer<s n="n"/></r></p></e>
-<e><p><l>καλός<s n="n"/><s n="m"/></l><r>kalos<b/>inscription<s n="n"/></r></p></e>
+<e><p><l>καλός<s n="n"/><s n="m"/></l><r>good<b/>inscription<s n="n"/></r></p></e>
 <e><p><l>καμήλα<s n="n"/><s n="f"/></l><r>camel<s n="n"/></r></p></e>
 <e><p><l>καμηλοπάρδαλη<s n="n"/><s n="f"/></l><r>giraffe<s n="n"/></r></p></e>
 <e><p><l>κάπα<s n="n"/><s n="f"/></l><r>kappa<s n="n"/></r></p></e>
