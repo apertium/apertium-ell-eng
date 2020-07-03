@@ -306,10 +306,10 @@
     <e><p><l>διαδίκτυο<s n="n"/><s n="f"/></l><r>internet<s n="n"/></r></p></e>
     <e><p><l>διαδίκτυο<s n="n"/><s n="f"/></l><r>web<s n="n"/></r></p></e>
     <e><p><l>ιστολόγιο<s n="n"/><s n="f"/></l><r>blog<s n="n"/></r></p></e>
-    <e><p><l>διαδυκτιακός</b>τόπος<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
+    <e><p><l>διαδυκτιακός<b/>τόπος<s n="n"/><s n="f"/></l><r>website<s n="n"/></r></p></e>
     <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>webpage<s n="n"/></r></p></e>
     <e><p><l>ιστοσελίδα<s n="n"/><s n="f"/></l><r>homepage<s n="n"/></r></p></e>
-    <e><p><l>αρχική</b>σελίδα<s n="n"/><s n="f"/></l><r>home page<s n="n"/></r></p></e>
+    <e><p><l>αρχική<b/>σελίδα<s n="n"/><s n="f"/></l><r>home page<s n="n"/></r></p></e>
     <e><p><l>υπηρεσία<s n="n"/><s n="f"/></l><r>service<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>monitor<s n="n"/></r></p></e>
     <e><p><l>οθόνη<s n="n"/><s n="f"/></l><r>screen<s n="n"/></r></p></e>
@@ -1506,7 +1506,7 @@
 <e><p><l>έφεση<s n="n"/><s n="f"/></l><r>appeal<s n="n"/></r></p></e>
 <e><p><l>έκκληση<s n="n"/><s n="f"/></l><r>appeal<s n="n"/></r></p></e>
 <e><p><l>εφηβεία<s n="n"/><s n="f"/></l><r>adolescence<s n="n"/></r></p></e>
-<e c="check" r="LR"><p><l>εφηβική</b>ηλικία<s n="n"/><s n="m"/></l><r>adolescence<s n="n"/></r></p></e>
+<e c="check" r="LR"><p><l>εφηβική<b/>ηλικία<s n="n"/><s n="m"/></l><r>adolescence<s n="n"/></r></p></e>
 <e><p><l>εφημερίδα<s n="n"/><s n="f"/></l><r>newspaper<s n="n"/></r></p></e>
 <e><p><l>ζαφείρι<s n="n"/><s n="nt"/></l><r>sapphire<s n="n"/></r></p></e>
 <e><p><l>ζαφορά<s n="n"/><s n="f"/></l><r>crocus<s n="n"/></r></p></e>
