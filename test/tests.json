@@ -1,0 +1,10 @@
+{
+    "ell-eng": {
+        "input": "ell-eng-input.txt",
+        "mode": "ell-eng"
+    },
+    "eng-ell": {
+        "input": "eng-ell-input.txt",
+        "mode": "eng-ell"
+    }
+}

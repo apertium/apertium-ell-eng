@@ -1,0 +1,28 @@
+[C5GJQ98JYrx6#0] ^39/39<num>$
+[/C5GJQ98JYrx6]
+[DKxm5pJrPtbd#0] ^aremtsidiustsi/*aremtsidiustsi$
+[/DKxm5pJrPtbd]
+[DWxsJNKdpdKA#0] ^Hunm/*Hunm$
+[/DWxsJNKdpdKA]
+[Gb0exW1DUi1e#0] ^Estoes/*Estoes$
+[/Gb0exW1DUi1e]
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[_5SxikcWWpT5#0] ^Luxw/*Luxw$
+[/_5SxikcWWpT5]
+[aInfm2pAZHTk#0] ^she’d/prpers<prn><subj><p3><f><sg>+have<vbhaver><past>$
+[/aInfm2pAZHTk]
+[cVvbCFZvobxX#0] ^youʼd/prpers<prn><subj><p2><mf><sp>+have<vbhaver><past>$
+[/cVvbCFZvobxX]
+[hBoF_TeKLAZw#0] ^460/460<num>$
+[/hBoF_TeKLAZw]
+[jpyCxy7cmfXo#0] ^where’ve/where<adv><itg>+have<vbhaver><pres>$
+[/jpyCxy7cmfXo]
+[qTg_0ZILEzah#0] ^weren’t/be<vbser><past>+not<adv>$
+[/qTg_0ZILEzah]
+[tWC6E7DAAr3m#0] ^??;/??;<sent>$
+[/tWC6E7DAAr3m]
+[x-YuXR3rdDzu#0] ^sheʼd/prpers<prn><subj><p3><f><sg>+have<vbhaver><past>$
+[/x-YuXR3rdDzu]
+[zn4v6pSTeUkc#0] ^hispaa/*hispaa$
+[/zn4v6pSTeUkc]

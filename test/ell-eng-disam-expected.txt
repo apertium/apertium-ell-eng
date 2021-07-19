@@ -1,0 +1,28 @@
+[7CbMAIzJhOT8#0] ^ονείτσ/*ονείτσ$
+[/7CbMAIzJhOT8]
+[CxtUwCE99G2L#0] ^στη/σε<pr>+ο<det><def><f><sg><acc>$
+[/CxtUwCE99G2L]
+[P7g2JlmlwMeH#0] ^στα/εις<pr>+ο<det><def><nt><sg><acc>$
+[/P7g2JlmlwMeH]
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[RDxLBFN4Wy6j#0] ^Ανδρί/*Ανδρί$
+[/RDxLBFN4Wy6j]
+[SFgzBrRoaw0o#0] ^τάβλιζα/*τάβλιζα$
+[/SFgzBrRoaw0o]
+[TgdAhWK-24tg#0] ^3/3<num>$
+[/TgdAhWK-24tg]
+[X5jFwF7-rbtD#0] ^κίτρόετηχημμ/*κίτρόετηχημμ$
+[/X5jFwF7-rbtD]
+[a2GJhtU9DnJS#0] ^οδονσαλσ/*οδονσαλσ$
+[/a2GJhtU9DnJS]
+[fx3UVuDW5t2x#0] ^μείνβτσ/*μείνβτσ$
+[/fx3UVuDW5t2x]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[llpFbO_HEFAw#0] ^στον/σε<pr>+ο<det><def><m><sg><acc>/σε<pr>+ο<det><def><nt><sg><nom>/σε<pr>+ο<det><def><nt><sg><acc>$
+[/llpFbO_HEFAw]
+[yioYQdauMWb8#0] ^ούτεν/*ούτεν$
+[/yioYQdauMWb8]
+[zbTuKuppzGqD#0] ^./.<sent>$
+[/zbTuKuppzGqD]

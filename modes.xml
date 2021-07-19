@@ -250,7 +250,7 @@
       <program name="cg-proc -w">
         <file name="eng-ell.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <program name="apertium-tagger -g -x $2">
         <file name="eng-ell.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
